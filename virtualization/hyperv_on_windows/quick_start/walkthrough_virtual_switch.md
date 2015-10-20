@@ -1,87 +1,55 @@
-ms。ContentId: 95FE9554-3968-4EED-B65D-E03F06A7598D
-タイトル: 手順 3: 仮想スイッチの作成
+テストms.ContentId: 95FE9554-3968-4EED-B65D-E03F06A7598D
+title: Step 3: Create a virtual switchテスト終わり
 
-#手順 3: 仮想スイッチを作成します。
+#テストStep 3: Create a virtual switchテスト終わり
 
-HYPER-V で仮想マシンを作成する前に、物理ネットワークに接続するには、この仮想マシンの方法を提供する必要があります。
-HYPER-V には、仮想スイッチに接続する仮想マシンのネットワーク カードをできるようにする、ソフトウェア ベースのネットワーク テクノロジにはネットワーク接続を提供することが含まれています。
-HYPER-V で作成した仮想スイッチは各は、次の 3 つの接続の種類のいずれかで構成できます。
-
-- 外部ネットワーク – 仮想スイッチは、物理ネットワーク、HYPER-V ホスト、および仮想マシン間の接続を提供する物理ネットワーク アダプターに接続されています。
-    この構成ではも有効にまたは、物理的に接続されたネットワーク カード経由で通信するホストの機能を無効にできます。
-    これは、特定の物理ネットワーク カードにのみ VM トラフィックを分離する便利なことができます。
-- ただし、仮想マシンと HYPER-V ホスト間ネットワーク接続が存在する、内部ネットワーク – 仮想スイッチを物理ネットワーク アダプターの場合に接続されていません。
-- プライベート ネットワーク – 仮想スイッチが物理ネットワーク アダプターに接続されていないと、仮想マシンと HYPER-V ホスト間の接続が存在しません。
-
-このチュートリアルは、外部のネットワークの使用について詳しく説明します。
-
-##仮想スイッチを手動で作成します。
-
-この演習は完全なネットワークの接続に、HYPER-V 管理ツールを使用して、仮想スイッチを作成する方法を説明します。
-HYPER-V を完了したときにホストには、仮想マシンを物理ネットワークに接続するために使用する仮想スイッチにが含まれます。
+テストA virtual switch allows you to create a network connection for your virtual machine.テスト終わり
+テストThey are used just like the network adapter (NIC) on your physical computer.テスト終わり
 
 
-1. HYPER-V マネージャーを開きます。
+
+テストFor this example, we are going to create an External switch.テスト終わり
+テストThe external switch will allow your virtual machine to access the host machine's network adapter.テスト終わり
+テストIf your host machine is connected to the internet, your virtual machine will be as well.テスト終わり
+
+
+テストWe'll also set the switch to allow the host to share this network adapter.テスト終わり
+テストThis makes it so both the virtual machines and the host can use the same network.テスト終わり
+
+
+
+1. テストIn Hyper-V manager, click **Virtual Switch Manager**.テスト終わり
     
-2. HYPER-V ホストの名前を右クリックし、' 仮想スイッチ マネージャー] を選択します。
+    テスト![](media/virtual_switch_manager1.png)テスト終わり
     
-3. [仮想スイッチ] の下には、'新しい仮想ネットワーク スイッチ' を選択します。
+2. テストSelect **New virtual network switch**.テスト終わり
     
-4. '仮想スイッチを作成するには、'外部' を選択します。
-5. ' 仮想スイッチの作成] ボタンを選択します。
+    テスト![](media/new_switch.png)テスト終わり
     
-6. [仮想スイッチのプロパティ] の下にある新しいスイッチ '外部 VM スイッチ' などの名前を付けます。
+3. テストSelect **External** and **Create Virtual Switch**.テスト終わり
     
-7. '接続の種類 '、' 外部ネットワーク' が選択されていることを確認します。
+    テスト![](media/new_switch_createbutton.png)テスト終わり
     
-8. 新しい仮想スイッチとペアになる物理ネットワーク カードを選択、これは、ネットワークに物理的に接続されているネットワーク カードになります。
-    <br />![](media/newSwitch_upd.png)
+4. テストUnder **Name**, type **External**.テスト終わり
+5. テストUnder **External network**, select the correct network adapter (there will probably only be one option).テスト終わり
     
-9. 仮想スイッチを作成するには、[適用] を選択します。
-    この時点で続行を [はい] をクリックして、次のメッセージは多くの場合表示されます。
-    <br />![](media/pen_changes_upd.png)
-    
-10. 仮想スイッチ マネージャーのウィンドウを閉じるには、[OK] を選択します。
 
-##PowerShell を使用する仮想スイッチを作成します。
+6. テストSelect **Allow management operating system to share this network adapter** and click **OK**.テスト終わり
+    
 
-PowerShell を使用して外部接続を使用して、仮想スイッチを作成するのには、次の手順を使用できます。
-
-
-1. 使用して `Get NetAdapter` 10 の Windows システムに接続されているネットワーク アダプターの一覧を返します。
+    テスト![](media/share_nic.png)テスト終わり
     
 
 
-    ```
-    PS C:\> Get-NetAdapter
+7. テストYou'll get a message warning you that your network might disconnect while the virtual switch is created.テスト終わり
+    テストJust click **Yes**.テスト終わり
+    テストYour network will be unavailable for a short time.テスト終わり
+    
+    テスト![](media/network_warning.png)テスト終わり
 
-    Name                      InterfaceDescription                    ifIndex Status       MacAddress             LinkSpeed
-    ----                      --------------------                    ------- ------       ----------             ---------
-    Ethernet 2                Broadcom NetXtreme 57xx Gigabit Cont...       5 Up           BC-30-5B-A8-C1-7F         1 Gbps
-    Ethernet                  Intel(R) PRO/100 M Desktop Adapter            3 Up           00-0E-0C-A8-DC-31        10 Mbps  
-    ```
+##テストNext step:テスト終わり
 
-2. HYPER-V スイッチを使用して、という名前の変数にインスタンスを配置するには、ネットワーク アダプターを選択して `$NetAdapter`です。
-
-    ```
-    $net = Get-NetAdapter -Name 'Ethernet'
-    ```
-
-3.  新しい HYPER-V 仮想スイッチを作成するには、次のコマンドを実行します。
-
-    ```
-    New-VMSwitch -Name "External VM Switch" -AllowManagementOS $True -NetAdapterName $net.Name
-    ```
-
-##仮想スイッチとラップトップ上の注意:
-
-ラップトップ コンピューターで Windows 10 の HYPER-V を実行している場合は、イーサネットおよびワイヤレス ネットワーク カードの両方の仮想スイッチの作成を検討することがあります。
-この構成を変更することができます、ラップトップに依存するこれらのスイッチ間で仮想マシンはネットワークに接続されています。
-ワイヤード (有線) およびワイヤレスの間では、仮想マシンが自動的に切り替わりますしないことに。
-
-##次の手順:
-
-[手順 4: .iso ファイルからの Windows の仮想マシンの作成します。](walkthrough_create_vm.md)
+テスト[Step 4: Create a Windows virtual machine from an .iso file](walkthrough_create_vm.md)テスト終わり
 
 
 
