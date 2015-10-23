@@ -1,6 +1,6 @@
 #HyperV
 
-##の概要
+##概要
 
 ###[Windows Hyperv](about/hyperv_on_windows.md)
 
@@ -8,7 +8,7 @@
 
 ###[新規作成機能](about/whats_new.md)
 
-##[ビルド](about/build.md)
+
 
 ##開発
 
