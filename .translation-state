@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "2b4f38e2b22fc26e8ed59ed48fb95a400882a312",
+  "LastProcessedCommit": "3745d9afabada7419484c18a402249c8926ddec4",
   "LastTranslatedCommit": "b1855cfe3bae94ee3a8af662afac5b7b3b9487de",
   "Items": {
     "426af95d3f431c9a2bc4a8c5735a8109792a7b80": {
@@ -1650,6 +1650,21 @@
         "virtualization\\windowscontainers\\quick_start\\manage_docker.md",
         "virtualization\\windowscontainers\\quick_start\\manage_powershell.md"
       ]
+    },
+    "d8a4692ec68e58781b25eea1753a7c356b40763f": {
+      "SourceFileCommit": "3745d9afabada7419484c18a402249c8926ddec4",
+      "SourceFilePath": "virtualization\\hyperv_on_windows\\TOC.md",
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\d8a4692ec68e58781b25eea1753a7c356b40763f.xlf",
+      "HandoffFileCommit": "10978585012623fefffb75dc27fefd88ec2bfade",
+      "HandoffReason": 1,
+      "HandoffDateTime": "2015-10-23T20:38:00.3165807Z",
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "DependencyFrom": null
     }
   }
 }
