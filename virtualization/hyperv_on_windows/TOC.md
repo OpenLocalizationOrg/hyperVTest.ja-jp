@@ -8,7 +8,7 @@
 
 ###[新規作成機能](about/whats_new.md)
 
-
+## [Build](about/build.md)
 
 ##開発
 
