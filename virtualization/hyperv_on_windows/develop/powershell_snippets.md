@@ -39,6 +39,7 @@ HYPER-V マネージャーでは、多くの場合、ゲスト OS が起動さ�
 if((Invoke-Command -VMName $VMName -Credential $cred {"Test"}) -ne "Test"){Write-Host "Not Booted"} else {Write-Host "Booted"}
 ```
 
+
 **結果**  
 ゲスト OS の状態を宣言するわかりやすいメッセージを出力します。
 
