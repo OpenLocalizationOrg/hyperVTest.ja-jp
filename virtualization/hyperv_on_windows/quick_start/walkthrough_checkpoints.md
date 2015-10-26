@@ -90,7 +90,7 @@ ms.ContentId: FBBAADE6-F1A1-4B5C-8FD2-BDCA3FCF81CA
     
 
     ![](media/apply_standard.png)
-3. ときに、完了したら、チェックポイントの一覧を次のようになります。
+34. ときに、完了したら、チェックポイントの一覧を次のようになります。
     
     ![](media/standard_applied.png)
 4. これが完了すると、右クリック] をクリックし、VM **接続** 、VM に接続します。
