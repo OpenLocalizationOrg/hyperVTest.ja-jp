@@ -1,7 +1,7 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 97
+ Total Files | 96
 
 ## File List
  Source File | Status | Details 
@@ -99,7 +99,6 @@
  [virtualization\windowscontainers\quick_start\media\newazure9.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/2b4f38e2b22fc26e8ed59ed48fb95a400882a312/virtualization/windowscontainers/quick_start/media/newazure9.png) | HandedBack | [Details](#530bd64d6f6f4ac321bc8a76d9c1b990b2ab338c255)
  [virtualization\windowscontainers\quick_start\media\nginx.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/2b4f38e2b22fc26e8ed59ed48fb95a400882a312/virtualization/windowscontainers/quick_start/media/nginx.png) | HandedBack | [Details](#a9f175f23fed1475c227ec1af2c524c918024bc4256)
  [virtualization\windowscontainers\quick_start\quickstart.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/windowscontainers/quick_start/quickstart.md) | HandedBack | [Details](#8c1510a894cbdfdb23c23ecdeeeedb2197e43c63259)
- [virtualization\windowscontainers\reference\app_compat.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/windowscontainers/reference/app_compat.md) | HandedBack | [Details](#a80e3c491fbd6c71380e1d8dc3589fc28c2b8caf261)
  [virtualization\windowscontainers\reference\powershell_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/windowscontainers/reference/powershell_overview.md) | HandedBack | [Details](#041b88830b633f85459d3b5be24b0d68ba8071bd262)
  [virtualization\windowscontainers\reference\ps_docker_comparison.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/windowscontainers/reference/ps_docker_comparison.md) | HandedBack | [Details](#a9225b180b1df05d803b0ba2f23be237d7176f4d263)
  [virtualization\windowscontainers\TOC.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/windowscontainers/TOC.md) | HandedBack | [Details](#c9a613b41195c01471a39d59e0fccdb2e226b08a264)
@@ -1087,16 +1086,6 @@
 * Target File: [virtualization\windowscontainers\quick_start\quickstart.md](https://github.com/OpenLocalizationOrg/hyperVTest.ja-jp/blob/b1855cfe3bae94ee3a8af662afac5b7b3b9487de/virtualization/windowscontainers/quick_start/quickstart.md)
 * Handoff File: [8c1510a894cbdfdb23c23ecdeeeedb2197e43c63.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/6698243f0e205799baeef712e23c46be97360e58/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/8c1510a894cbdfdb23c23ecdeeeedb2197e43c63.xlf)
 * Handback File: [8c1510a894cbdfdb23c23ecdeeeedb2197e43c63.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/bf209fefe369898dad5749625d7aac971a3db514/ol-handback/OpenLocalizationOrg/hyperVTest.ja-jp/master/archive/8c1510a894cbdfdb23c23ecdeeeedb2197e43c63.xlf)
-* Handoff Datetime: 2015-10-13 03:50:32
-* Handback Datetime: 2015-10-23 05:15:14
-* Handoff Reason: Include
-* [Back to Top](#report-top)
-
-##### <a name='a80e3c491fbd6c71380e1d8dc3589fc28c2b8caf261'></a> Source: [virtualization\windowscontainers\reference\app_compat.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/windowscontainers/reference/app_compat.md)
-* Status: HandedBack
-* Target File: [virtualization\windowscontainers\reference\app_compat.md](https://github.com/OpenLocalizationOrg/hyperVTest.ja-jp/blob/b1855cfe3bae94ee3a8af662afac5b7b3b9487de/virtualization/windowscontainers/reference/app_compat.md)
-* Handoff File: [a80e3c491fbd6c71380e1d8dc3589fc28c2b8caf.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/6698243f0e205799baeef712e23c46be97360e58/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/a80e3c491fbd6c71380e1d8dc3589fc28c2b8caf.xlf)
-* Handback File: [a80e3c491fbd6c71380e1d8dc3589fc28c2b8caf.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/bf209fefe369898dad5749625d7aac971a3db514/ol-handback/OpenLocalizationOrg/hyperVTest.ja-jp/master/archive/a80e3c491fbd6c71380e1d8dc3589fc28c2b8caf.xlf)
 * Handoff Datetime: 2015-10-13 03:50:32
 * Handback Datetime: 2015-10-23 05:15:14
 * Handoff Reason: Include
