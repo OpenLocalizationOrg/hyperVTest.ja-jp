@@ -6,15 +6,15 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/e020d9cb5927431d053644bd3401c27fd41fbbab/virtualization/community/community_overview.md) | HandedOff | [Details](#443f38b1c2eb5bc09a0ff285f4c70d0d65ff57c894)
+ [virtualization\hyperv_on_windows\quick_start\walkthrough_powershell.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/virtualization/hyperv_on_windows/quick_start/walkthrough_powershell.md) | HandedOff | [Details](#2c9a0afa2f41f5f42297cdf0a42792929cd1b88d181)
 
 ## Item Details
-##### <a name='443f38b1c2eb5bc09a0ff285f4c70d0d65ff57c894'></a> Source: [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/e020d9cb5927431d053644bd3401c27fd41fbbab/virtualization/community/community_overview.md)
+##### <a name='2c9a0afa2f41f5f42297cdf0a42792929cd1b88d181'></a> Source: [virtualization\hyperv_on_windows\quick_start\walkthrough_powershell.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/virtualization/hyperv_on_windows/quick_start/walkthrough_powershell.md)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/bb6b7941e9c746ef70401a9fcc1c2937ca876733/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf)
+* Handoff File: [walkthrough_powershell.f20d7c387d05f1e6da38e694c8255c1b0044b10b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/7adf6eb2f3e1fba46848d7f69b4250e765fa96ea/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/walkthrough_powershell.f20d7c387d05f1e6da38e694c8255c1b0044b10b.ja-jp.xlf)
 * Handback File: 
-* Handoff Datetime: 2015-11-06 21:29:49
+* Handoff Datetime: 2015-11-06 21:53:05
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: Include
 * [Back to Top](#report-top)
