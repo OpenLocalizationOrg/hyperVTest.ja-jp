@@ -51,7 +51,7 @@ Hyper-V では、Windows が呼ばクライアント HYPER-V として。
             <p>その他の技術的なサポート、およびコミュニティ リソース</p>
             <ul>
                 <li class="unordered"> ご質問があるでしょうか。[HYPER-V フォーラム] で依頼 (https://social.technet.microsoft.com/Forums/windowsserver/en-US/home?forum=winserverhyperv)<br /><br /></li>
-                <li class="unordered">[HYPER-V および Windows のコンテナーのコミュニティ リソース](..\community\community_overview.md)<br /><br /></li>
+                <li class="unordered">[HYPER-V および Windows のコンテナーのコミュニティ リソース](\community\community_overview.md)<br /><br /></li>
             </ul>   
         </td>
     </tr>
