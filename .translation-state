@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "e16a6cf05cd4a5e3f7abd86fcc0af5fbd84e7746",
+  "LastProcessedCommit": "3a540b9332e91b037bc9e593b63d4ffd6ce861a6",
   "LastTranslatedCommit": "b1855cfe3bae94ee3a8af662afac5b7b3b9487de",
   "Items": {
     "426af95d3f431c9a2bc4a8c5735a8109792a7b80": {
@@ -1689,7 +1689,7 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\44a0686f5ce5d1544b8a61bcad0a06eb1e1ce9d4.png",
       "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
       "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
+      "HandoffDateTime": "2015-11-06T18:38:22.0779075Z",
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
@@ -1706,7 +1706,7 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\9d753332489389765c1ea1cfa1737126a201644c.png",
       "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
       "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
+      "HandoffDateTime": "2015-11-06T18:38:22.0779075Z",
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
@@ -1723,7 +1723,7 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\579a5b151617e20cfb4e116a6f365a96dbaa9c4a.png",
       "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
       "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
+      "HandoffDateTime": "2015-11-06T18:38:22.0779075Z",
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
@@ -1740,7 +1740,7 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\50819aee09462e65ad3e58e1498aeb2100326434.png",
       "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
       "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
+      "HandoffDateTime": "2015-11-06T18:38:22.0779075Z",
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
@@ -1757,7 +1757,7 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\7244a1a0ddcebfe36147f05577bceb7671592b96.png",
       "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
       "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
+      "HandoffDateTime": "2015-11-06T18:38:22.0779075Z",
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
@@ -1775,7 +1775,7 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\215adae041390b1edb10b314dc7ce21f6b39592e.png",
       "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
       "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
+      "HandoffDateTime": "2015-11-06T18:38:22.0779075Z",
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
@@ -1783,40 +1783,6 @@
       "DependencyFrom": [
         "virtualization\\hyperv_on_windows\\windows_welcome_new.md",
         "virtualization\\windowscontainers\\containers_welcome.md"
-      ]
-    },
-    "8489e1cb35de12a7cc54a8c1b29f40672eaac851": {
-      "SourceFileCommit": "8e64c53ab93fd1e8a051c3cdcd9cf5c4495a741f",
-      "SourceFilePath": "virtualization\\hyperv_on_windows\\media\\All_ContentTypeIcons_VisualWalkthrough_65.png",
-      "TargetFileCommit": null,
-      "TargetFilePath": null,
-      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\8489e1cb35de12a7cc54a8c1b29f40672eaac851.png",
-      "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
-      "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
-      "HandbackFilePath": null,
-      "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
-      "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": [
-        "virtualization\\hyperv_on_windows\\windows_welcome_new.md"
-      ]
-    },
-    "c51de2e49664fbb16e1e5f8ee2d820b31461541e": {
-      "SourceFileCommit": "8e64c53ab93fd1e8a051c3cdcd9cf5c4495a741f",
-      "SourceFilePath": "virtualization\\hyperv_on_windows\\media\\Chat_65.png",
-      "TargetFileCommit": null,
-      "TargetFilePath": null,
-      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\c51de2e49664fbb16e1e5f8ee2d820b31461541e.png",
-      "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
-      "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
-      "HandbackFilePath": null,
-      "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
-      "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": [
-        "virtualization\\hyperv_on_windows\\windows_welcome_new.md"
       ]
     },
     "7de8389ab2b14e0926c142bf61be560037fc2658": {
@@ -1827,7 +1793,7 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\7de8389ab2b14e0926c142bf61be560037fc2658.png",
       "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
       "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
+      "HandoffDateTime": "2015-11-06T18:38:22.0779075Z",
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
@@ -1844,7 +1810,7 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\367d56d6ba500771f4a03e2296eca6bb079d891e.png",
       "HandoffFileCommit": "53a70643b6ecba630af824d76e4fd35431b2f2d6",
       "HandoffReason": 2,
-      "HandoffDateTime": "2015-11-06T18:29:55.7056606Z",
+      "HandoffDateTime": "2015-11-06T18:38:22.0779075Z",
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
