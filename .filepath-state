@@ -14,8 +14,8 @@
   "2ad607964e95e5dc4570fd2fc1ce05f592bf08f0": [
     "virtualization\\hyperv_on_windows\\about\\supported_guest_os.md"
   ],
-  "bc21c2695647e0d20652d1ef23e38ffd094355b8": [
-    "virtualization\\hyperv_on_windows\\about\\windows_welcome_new.md"
+  "851345687639b6942357c4f7518a4fe528d952da": [
+    "virtualization\\hyperv_on_windows\\about\\whats_new.md"
   ],
   "435d2b60fb6ed9b47114f8dbb2a6fc0cfe803803": [
     "virtualization\\hyperv_on_windows\\develop\\make_mgmt_service.md"
@@ -215,8 +215,22 @@
   "2630f2629bf19ce887b373fcbd3bc26fe879d061": [
     "virtualization\\hyperv_on_windows\\user_guide\\vmsession.md"
   ],
-  "851345687639b6942357c4f7518a4fe528d952da": [
-    "virtualization\\hyperv_on_windows\\whats_new.md"
+  "bc21c2695647e0d20652d1ef23e38ffd094355b8": [
+    "virtualization\\hyperv_on_windows\\windows_welcome_new.md"
+  ],
+  "7244a1a0ddcebfe36147f05577bceb7671592b96": [
+    "virtualization\\hyperv_on_windows\\media\\whats_new.png",
+    "virtualization\\windowscontainers\\media\\try.png"
+  ],
+  "215adae041390b1edb10b314dc7ce21f6b39592e": [
+    "virtualization\\hyperv_on_windows\\media\\MeetsRequirements_65.png",
+    "virtualization\\windowscontainers\\media\\1.png"
+  ],
+  "8489e1cb35de12a7cc54a8c1b29f40672eaac851": [
+    "virtualization\\hyperv_on_windows\\media\\All_ContentTypeIcons_VisualWalkthrough_65.png"
+  ],
+  "c51de2e49664fbb16e1e5f8ee2d820b31461541e": [
+    "virtualization\\hyperv_on_windows\\media\\Chat_65.png"
   ],
   "af0e195779bd2a453543a020e1498e0fd398f1fb": [
     "virtualization\\windowscontainers\\about\\about_overview.md"
@@ -238,12 +252,6 @@
   ],
   "db9ae0a644cdfe47be730c959c0d637513aa9203": [
     "virtualization\\windowscontainers\\containers_welcome.md"
-  ],
-  "7244a1a0ddcebfe36147f05577bceb7671592b96": [
-    "virtualization\\windowscontainers\\media\\try.png"
-  ],
-  "215adae041390b1edb10b314dc7ce21f6b39592e": [
-    "virtualization\\windowscontainers\\media\\1.png"
   ],
   "7de8389ab2b14e0926c142bf61be560037fc2658": [
     "virtualization\\windowscontainers\\media\\question.png"
