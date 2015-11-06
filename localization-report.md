@@ -119,7 +119,7 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [.gitignore](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/.gitignore) | Ignored | [Details](#8e3ad5641d0493f8a43c5ab0193fb7467c988ebe0)
- [.localization-config](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/.localization-config) | Ignored | [Details](#a20269ac62329eb7d603ca379b077a0c9966a4771)
+ [.localization-config](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/.localization-config) | Ignored | [Details](#09e3d827b7140a0506df489a2c22d6ac0a7db1e81)
  [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/.openpublishing.build.mdproj) | Ignored | [Details](#ea7542a1cc208464193da9503160bbb41d54856c2)
  [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/.openpublishing.publish.config.json) | Ignored | [Details](#d90fd61c261176192bdff2bedc2338339791f3003)
  [.settings\settings.json](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/.settings/settings.json) | Ignored | [Details](#f95581bec404dcdffc7d58dffba81b6f08c0b7304)
@@ -296,7 +296,7 @@
 * Handoff Reason: Ignored
 * [Back to Top](#report-top)
 
-##### <a name='a20269ac62329eb7d603ca379b077a0c9966a4771'></a> Source: [.localization-config](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/.localization-config)
+##### <a name='09e3d827b7140a0506df489a2c22d6ac0a7db1e81'></a> Source: [.localization-config](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d66e8e2881ddac825cd5d65019534177110d892f/.localization-config)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
