@@ -1,7 +1,7 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 91
+ Total Files | 90
 
 ## File List
  Source File | Status | Details 
@@ -65,7 +65,6 @@
  [virtualization\hyperv_on_windows\user_guide\media\HyperVManager-ConnectToLocalHost.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/2b4f38e2b22fc26e8ed59ed48fb95a400882a312/virtualization/hyperv_on_windows/user_guide/media/HyperVManager-ConnectToLocalHost.png) | HandedBack | [Details](#480f125229e908bd46da36baea6c1628b3b10fb3189)
  [virtualization\hyperv_on_windows\user_guide\media\HyperVManager-ConnectToRemoteHost.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/2b4f38e2b22fc26e8ed59ed48fb95a400882a312/virtualization/hyperv_on_windows/user_guide/media/HyperVManager-ConnectToRemoteHost.png) | HandedBack | [Details](#09140851fb0b7b0d268a1beda2d6423fe3c24e1a190)
  [virtualization\hyperv_on_windows\user_guide\media\HyperVManager-ConnectToRemoteHostAltCreds.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/2b4f38e2b22fc26e8ed59ed48fb95a400882a312/virtualization/hyperv_on_windows/user_guide/media/HyperVManager-ConnectToRemoteHostAltCreds.png) | HandedBack | [Details](#b1547cd8ba6a8ff669e679d64b79773d3878beea191)
- [virtualization\hyperv_on_windows\user_guide\migrating_vms.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/hyperv_on_windows/user_guide/migrating_vms.md) | HandedBack | [Details](#4230e3947db642bf5c520ef9e32130b41e4ab3fa193)
  [virtualization\hyperv_on_windows\user_guide\remote_host_management.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/hyperv_on_windows/user_guide/remote_host_management.md) | HandedBack | [Details](#a74f3687bd3a1fe2b92bf8424df6957c6b223aa4194)
  [virtualization\hyperv_on_windows\user_guide\troubleshooting.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/hyperv_on_windows/user_guide/troubleshooting.md) | HandedBack | [Details](#d772ee3e60961445f6ad27f6d2e2f14678d990e1195)
  [virtualization\hyperv_on_windows\user_guide\user_guide_nav.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/hyperv_on_windows/user_guide/user_guide_nav.md) | HandedBack | [Details](#c9963491668f14ebc3a62e3d8e0d43d744a1d341196)
@@ -730,16 +729,6 @@
 * Handback Datetime: 2015-10-23 05:15:14
 * Handoff Reason: IsDependency
 * Dependency From: virtualization\hyperv_on_windows\user_guide\remote_host_management.md
-* [Back to Top](#report-top)
-
-##### <a name='4230e3947db642bf5c520ef9e32130b41e4ab3fa193'></a> Source: [virtualization\hyperv_on_windows\user_guide\migrating_vms.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/hyperv_on_windows/user_guide/migrating_vms.md)
-* Status: HandedBack
-* Target File: [virtualization\hyperv_on_windows\user_guide\migrating_vms.md](https://github.com/OpenLocalizationOrg/hyperVTest.ja-jp/blob/b1855cfe3bae94ee3a8af662afac5b7b3b9487de/virtualization/hyperv_on_windows/user_guide/migrating_vms.md)
-* Handoff File: [4230e3947db642bf5c520ef9e32130b41e4ab3fa.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/6698243f0e205799baeef712e23c46be97360e58/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/4230e3947db642bf5c520ef9e32130b41e4ab3fa.xlf)
-* Handback File: [4230e3947db642bf5c520ef9e32130b41e4ab3fa.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/bf209fefe369898dad5749625d7aac971a3db514/ol-handback/OpenLocalizationOrg/hyperVTest.ja-jp/master/archive/4230e3947db642bf5c520ef9e32130b41e4ab3fa.xlf)
-* Handoff Datetime: 2015-10-13 03:50:32
-* Handback Datetime: 2015-10-23 05:15:14
-* Handoff Reason: Include
 * [Back to Top](#report-top)
 
 ##### <a name='a74f3687bd3a1fe2b92bf8424df6957c6b223aa4194'></a> Source: [virtualization\hyperv_on_windows\user_guide\remote_host_management.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b624182be96d793f629e6360006d6e39fef5ce7d/virtualization/hyperv_on_windows/user_guide/remote_host_management.md)

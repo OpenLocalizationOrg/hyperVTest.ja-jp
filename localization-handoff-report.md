@@ -6,15 +6,15 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\hyperv_on_windows\develop\make_mgmt_service.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/a90ff81093bda0a2c342a3fc3dab3733baa8e32b/virtualization/hyperv_on_windows/develop/make_mgmt_service.md) | HandedOff | [Details](#f5d28cf383be3b3fdd623b8a40d120e113abc465102)
+ [virtualization\hyperv_on_windows\user_guide\migrating_vms.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/cb19b189d34d205eb7695bc2f3317bf5fc4d9bc2/virtualization/hyperv_on_windows/user_guide/migrating_vms.md) | HandedOff | [Details](#756462edce4cd4cd60a244543d8013718b20fe99193)
 
 ## Item Details
-##### <a name='f5d28cf383be3b3fdd623b8a40d120e113abc465102'></a> Source: [virtualization\hyperv_on_windows\develop\make_mgmt_service.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/a90ff81093bda0a2c342a3fc3dab3733baa8e32b/virtualization/hyperv_on_windows/develop/make_mgmt_service.md)
+##### <a name='756462edce4cd4cd60a244543d8013718b20fe99193'></a> Source: [virtualization\hyperv_on_windows\user_guide\migrating_vms.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/cb19b189d34d205eb7695bc2f3317bf5fc4d9bc2/virtualization/hyperv_on_windows/user_guide/migrating_vms.md)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [make_mgmt_service.f08a72226cda804bf52172777630838cf58daa2b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/2d60358f4455e8e4fe15bf64bbe5062094e26d12/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/make_mgmt_service.f08a72226cda804bf52172777630838cf58daa2b.ja-jp.xlf)
+* Handoff File: [migrating_vms.c3ab6f486125abf75758937dd83afe9f4e332b1b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/a7e4e548fa52d54832aa2b0b91538f295e3abb42/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/migrating_vms.c3ab6f486125abf75758937dd83afe9f4e332b1b.ja-jp.xlf)
 * Handback File: 
-* Handoff Datetime: 2015-11-07 00:16:49
+* Handoff Datetime: 2015-11-07 00:56:50
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: Include
 * [Back to Top](#report-top)
