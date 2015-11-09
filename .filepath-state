@@ -223,5 +223,11 @@
   ],
   "367d56d6ba500771f4a03e2296eca6bb079d891e": [
     "virtualization\\windowscontainers\\media\\explore.png"
+  ],
+  "b764ceadae3e4ccb30c57c8a30377356f3a0e5bd": [
+    "virtualization\\windowscontainers\\EULA.md"
+  ],
+  "c9a613b41195c01471a39d59e0fccdb2e226b08a": [
+    "virtualization\\windowscontainers\\TOC.md"
   ]
 }
