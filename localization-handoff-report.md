@@ -6,15 +6,15 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\hyperv_on_windows\user_guide\checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6c7bba4f531365e804a63e81e254d75ae73611a6/virtualization/hyperv_on_windows/user_guide/checkpoints.md) | HandedOff | [Details](#bcfc3d1bbd1a6dba522674bd0525a4a83c6b1cb8185)
+ [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/7c24b34fcae9d7e43b504c47c8af61665a0cc5b9/virtualization/community/community_overview.md) | HandedOff | [Details](#2b6096cd180b7b28c9355b39e99217a94566644e94)
 
 ## Item Details
-##### <a name='bcfc3d1bbd1a6dba522674bd0525a4a83c6b1cb8185'></a> Source: [virtualization\hyperv_on_windows\user_guide\checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6c7bba4f531365e804a63e81e254d75ae73611a6/virtualization/hyperv_on_windows/user_guide/checkpoints.md)
+##### <a name='2b6096cd180b7b28c9355b39e99217a94566644e94'></a> Source: [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/7c24b34fcae9d7e43b504c47c8af61665a0cc5b9/virtualization/community/community_overview.md)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [checkpoints.fb864e32f956b43d9a6ce0ccc72ba67b60ea8362.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/a6bf19602d992fa0134c4194a6d5530127e433fb/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/checkpoints.fb864e32f956b43d9a6ce0ccc72ba67b60ea8362.ja-jp.xlf)
+* Handoff File: [community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/1e0b6af9d05012860c0ee3b5ad859ab9659656c6/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf)
 * Handback File: 
-* Handoff Datetime: 2015-11-09 19:30:17
+* Handoff Datetime: 2015-11-10 23:31:32
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: Include
 * [Back to Top](#report-top)
