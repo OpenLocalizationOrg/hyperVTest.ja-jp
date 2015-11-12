@@ -6,15 +6,15 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/a2bbcbf46849c86a67f00a2f25a5bc965cd78f40/virtualization/community/community_overview.md) | HandedOff | [Details](#2e5b53041d95afaa2555d2a37fd87b0acb6b758694)
+ [virtualization\hyperv_on_windows\develop\powershell_snippets.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/afc67b5964f4bc33b014383f912feff83cfe866c/virtualization/hyperv_on_windows/develop/powershell_snippets.md) | HandedOff | [Details](#a7640c222d084ad8705adf3206cc238fc33ff331103)
 
 ## Item Details
-##### <a name='2e5b53041d95afaa2555d2a37fd87b0acb6b758694'></a> Source: [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/a2bbcbf46849c86a67f00a2f25a5bc965cd78f40/virtualization/community/community_overview.md)
+##### <a name='a7640c222d084ad8705adf3206cc238fc33ff331103'></a> Source: [virtualization\hyperv_on_windows\develop\powershell_snippets.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/afc67b5964f4bc33b014383f912feff83cfe866c/virtualization/hyperv_on_windows/develop/powershell_snippets.md)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/5aa2716ac252b5b6d312385693bc73bcc8a8f2b1/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf)
+* Handoff File: [powershell_snippets.21e7d9aff80df6f1c56918c2c3e1149d3e880e9a.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/1de9beb94dd21c64988975e61ec5544b9664f8e0/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/powershell_snippets.21e7d9aff80df6f1c56918c2c3e1149d3e880e9a.ja-jp.xlf)
 * Handback File: 
-* Handoff Datetime: 2015-11-11 08:19:40
+* Handoff Datetime: 2015-11-12 21:12:31
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: Include
 * [Back to Top](#report-top)
