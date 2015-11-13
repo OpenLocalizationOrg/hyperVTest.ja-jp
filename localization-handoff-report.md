@@ -6,15 +6,15 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\hyperv_on_windows\user_guide\checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b2582d7cd6d013c926f5f38014121b70d3ef714a/virtualization/hyperv_on_windows/user_guide/checkpoints.md) | HandedOff | [Details](#1958cab11e62080b7dfc8dd8e1f6d41e4b438683185)
+ [virtualization\hyperv_on_windows\develop\make_mgmt_service.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d783c6916d778048552695d007936839b1df13f3/virtualization/hyperv_on_windows/develop/make_mgmt_service.md) | HandedOff | [Details](#a73d8461fbe77f0ecd02c8c7e8b6d70f96464d51102)
 
 ## Item Details
-##### <a name='1958cab11e62080b7dfc8dd8e1f6d41e4b438683185'></a> Source: [virtualization\hyperv_on_windows\user_guide\checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b2582d7cd6d013c926f5f38014121b70d3ef714a/virtualization/hyperv_on_windows/user_guide/checkpoints.md)
+##### <a name='a73d8461fbe77f0ecd02c8c7e8b6d70f96464d51102'></a> Source: [virtualization\hyperv_on_windows\develop\make_mgmt_service.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/d783c6916d778048552695d007936839b1df13f3/virtualization/hyperv_on_windows/develop/make_mgmt_service.md)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [checkpoints.fb864e32f956b43d9a6ce0ccc72ba67b60ea8362.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/93eb05fb85e67fb0ae3043f7955880b07638196b/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/checkpoints.fb864e32f956b43d9a6ce0ccc72ba67b60ea8362.ja-jp.xlf)
+* Handoff File: [make_mgmt_service.f08a72226cda804bf52172777630838cf58daa2b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/91512bdde0a6597d5d32a8a4d84391644a02e35f/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/make_mgmt_service.f08a72226cda804bf52172777630838cf58daa2b.ja-jp.xlf)
 * Handback File: 
-* Handoff Datetime: 2015-11-13 06:11:31
+* Handoff Datetime: 2015-11-13 07:01:13
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: Include
 * [Back to Top](#report-top)
