@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "c99cc7210d9789693d6d39d6c2cf10e4097ba200",
-  "LastTranslatedCommit": "3c2bef01f38f0267fa4c711bfd93cce91b91747a",
+  "LastTranslatedCommit": "fbbbf78205f8297e69da54706349a6175be1d63b",
   "Items": {
     "426af95d3f431c9a2bc4a8c5735a8109792a7b80": {
       "SourceFileCommit": "b624182be96d793f629e6360006d6e39fef5ce7d",
@@ -1895,16 +1895,16 @@
     "ee0c7673a7da915db8c2d41f0d24233aac1b9787": {
       "SourceFileCommit": "c99cc7210d9789693d6d39d6c2cf10e4097ba200",
       "SourceFilePath": "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_export_import.md",
-      "TargetFileCommit": null,
-      "TargetFilePath": null,
+      "TargetFileCommit": "fbbbf78205f8297e69da54706349a6175be1d63b",
+      "TargetFilePath": "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_export_import.md",
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\walkthrough_export_import.357da837e16b81b7e63ec02325c79b3b0eb2e511.ja-jp.xlf",
       "HandoffFileCommit": "71f1fc10fdd559846263b03798401a43d7f94377",
       "HandoffReason": 1,
       "HandoffDateTime": "2015-11-13T00:03:54.5902702Z",
-      "HandbackFilePath": null,
-      "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
-      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "HandbackFilePath": "ol-handback\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\walkthrough_export_import.357da837e16b81b7e63ec02325c79b3b0eb2e511.ja-jp.xlf",
+      "HandbackFileCommit": "b9c4aadc708d1c305079e8019c43df24be844156",
+      "HandbackDateTime": "2015-11-13T00:11:07.210292Z",
+      "UpdatedDateTime": "2015-11-13T00:11:07.210292Z",
       "DependencyFrom": null
     }
   }
