@@ -6,15 +6,15 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b1af1a5ee0b96f3210b4fa5ad1d3049514cd2fba/virtualization/community/community_overview.md) | PartialHandedBack | [Details](#18e22d1db8ed746b8fbb45cd06804ae53f4135d594)
- [virtualization\hyperv_on_windows\windows_welcome_new.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b1af1a5ee0b96f3210b4fa5ad1d3049514cd2fba/virtualization/hyperv_on_windows/windows_welcome_new.md) | PartialHandedBack | [Details](#18785a9d11b0b336401496af54d6658c577e9cea198)
+ [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/52a406e35de0576b80843e8d1f974da6ba7f86fe/virtualization/community/community_overview.md) | PartialHandedBack | [Details](#55695dff9c094873b0c069ece7729e1da274187f94)
+ [virtualization\hyperv_on_windows\windows_welcome_new.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/52a406e35de0576b80843e8d1f974da6ba7f86fe/virtualization/hyperv_on_windows/windows_welcome_new.md) | PartialHandedBack | [Details](#c994b027b6ba90d688904000e7aa283709915c03198)
 
 ## Item Details
-##### <a name='18e22d1db8ed746b8fbb45cd06804ae53f4135d594'></a> Source: [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b1af1a5ee0b96f3210b4fa5ad1d3049514cd2fba/virtualization/community/community_overview.md)
+##### <a name='55695dff9c094873b0c069ece7729e1da274187f94'></a> Source: [virtualization\community\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/52a406e35de0576b80843e8d1f974da6ba7f86fe/virtualization/community/community_overview.md)
 * Status: PartialHandedBack
 * Target File: 
-* Handoff File: [community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/e2f3b57e99c329d20129d021ebecf4119c532fbd/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf)
-* Handoff Datetime: 2015-11-18 22:04:32
+* Handoff File: [community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/cdf66d187614113b7ae99c34e586207741887a3d/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/community_overview.4d3cb46b3cb0b5d520b8240070543e6c2549b923.ja-jp.xlf)
+* Handoff Datetime: 2015-11-18 23:37:19
 * Handoff Reason: Include
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
@@ -23,11 +23,11 @@
 * Current Handback Datetime: 2015-10-23 05:15:14
 * [Back to Top](#report-top)
 
-##### <a name='18785a9d11b0b336401496af54d6658c577e9cea198'></a> Source: [virtualization\hyperv_on_windows\windows_welcome_new.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/b1af1a5ee0b96f3210b4fa5ad1d3049514cd2fba/virtualization/hyperv_on_windows/windows_welcome_new.md)
+##### <a name='c994b027b6ba90d688904000e7aa283709915c03198'></a> Source: [virtualization\hyperv_on_windows\windows_welcome_new.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/52a406e35de0576b80843e8d1f974da6ba7f86fe/virtualization/hyperv_on_windows/windows_welcome_new.md)
 * Status: PartialHandedBack
 * Target File: 
-* Handoff File: [windows_welcome_new.7f23ab90b609bd894e638ebac56e2bc04c35f245.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/e2f3b57e99c329d20129d021ebecf4119c532fbd/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/windows_welcome_new.7f23ab90b609bd894e638ebac56e2bc04c35f245.ja-jp.xlf)
-* Handoff Datetime: 2015-11-18 22:04:32
+* Handoff File: [windows_welcome_new.7f23ab90b609bd894e638ebac56e2bc04c35f245.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/cdf66d187614113b7ae99c34e586207741887a3d/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/windows_welcome_new.7f23ab90b609bd894e638ebac56e2bc04c35f245.ja-jp.xlf)
+* Handoff Datetime: 2015-11-18 23:37:19
 * Handoff Reason: Include
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
