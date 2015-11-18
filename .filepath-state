@@ -1,16 +1,4 @@
 {
-  "55695dff9c094873b0c069ece7729e1da274187f": [
-    "virtualization\\community\\community_overview.md"
-  ],
-  "18e22d1db8ed746b8fbb45cd06804ae53f4135d5": [
-    "virtualization\\community\\community_overview.md"
-  ],
-  "08713f3d67915fc6b75f8fedad331e22d7e30734": [
-    "virtualization\\community\\community_overview.md"
-  ],
-  "08796bf856b1936c65df41076765d9f33d79e268": [
-    "virtualization\\community\\community_overview.md"
-  ],
   "293cd908ea75ec62b9ca3cdbfaafe4980abae1ea": [
     "virtualization\\community\\TOC.md"
   ],
@@ -444,5 +432,8 @@
   ],
   "c51de2e49664fbb16e1e5f8ee2d820b31461541e": [
     "virtualization\\hyperv_on_windows\\media\\Chat_65.png"
+  ],
+  "55695dff9c094873b0c069ece7729e1da274187f": [
+    "virtualization\\hyperv_on_windows\\community_overview.md"
   ]
 }
