@@ -2,15 +2,6 @@
   "293cd908ea75ec62b9ca3cdbfaafe4980abae1ea": [
     "virtualization\\community\\TOC.md"
   ],
-  "2b9e9b367c183aac1bdafacbe6bbe4a65d45d585": [
-    "virtualization\\hyperv_on_windows\\develop\\powershell_snippets.md"
-  ],
-  "7c8369907f03597d2426402b6d4cd79fd10afb88": [
-    "virtualization\\hyperv_on_windows\\develop\\powershell_snippets.md"
-  ],
-  "a7640c222d084ad8705adf3206cc238fc33ff331": [
-    "virtualization\\hyperv_on_windows\\develop\\powershell_snippets.md"
-  ],
   "69a31967b060e5d558ffb53c3c3f9134e3a1c8cb": [
     "virtualization\\hyperv_on_windows\\quick_start\\walkthrough.md"
   ],
@@ -429,5 +420,8 @@
   ],
   "3147764c0d5fe0b34baf8caa7c87d2034eb543ef": [
     "virtualization\\hyperv_on_windows\\develop\\make_mgmt_service_test.md"
+  ],
+  "dbafa1d6e63dbfd904402ffa16033bd0fe63005e": [
+    "virtualization\\hyperv_on_windows\\about\\powershell_snippets_new.md"
   ]
 }
