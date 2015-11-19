@@ -2,12 +2,6 @@
   "293cd908ea75ec62b9ca3cdbfaafe4980abae1ea": [
     "virtualization\\community\\TOC.md"
   ],
-  "b0a1d4eaf7787cafeeb5777d4d869330f94793cd": [
-    "virtualization\\hyperv_on_windows\\about\\supported_guest_os.md"
-  ],
-  "2ad607964e95e5dc4570fd2fc1ce05f592bf08f0": [
-    "virtualization\\hyperv_on_windows\\about\\supported_guest_os.md"
-  ],
   "e16d508640119c3960e875aaa3b3c1ce48d7bfc6": [
     "virtualization\\hyperv_on_windows\\about\\whats_new.md"
   ],
@@ -422,6 +416,9 @@
   ],
   "367d56d6ba500771f4a03e2296eca6bb079d891e": [
     "virtualization\\windowscontainers\\media\\explore.png"
+  ],
+  "b0a1d4eaf7787cafeeb5777d4d869330f94793cd": [
+    "virtualization\\hyperv_on_windows\\about\\supported_guest_ms.md"
   ],
   "8489e1cb35de12a7cc54a8c1b29f40672eaac851": [
     "virtualization\\hyperv_on_windows\\media\\All_ContentTypeIcons_VisualWalkthrough_65.png"
