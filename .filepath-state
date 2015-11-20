@@ -65,6 +65,9 @@
   "dbc749a61f352dc78621c582e6d5c1807eb00c6a": [
     "virtualization\\hyperv_on_windows\\TOC.md"
   ],
+  "a43c4b1981e5a2c5c56f361d02c02e2a1b0f6e51": [
+    "virtualization\\hyperv_on_windows\\user_guide\\checkpoints.md"
+  ],
   "1958cab11e62080b7dfc8dd8e1f6d41e4b438683": [
     "virtualization\\hyperv_on_windows\\user_guide\\checkpoints.md"
   ],
