@@ -71,6 +71,9 @@
   "dbc749a61f352dc78621c582e6d5c1807eb00c6a": [
     "virtualization\\hyperv_on_windows\\TOC.md"
   ],
+  "d3d7ac429dcb0a53b3a1e9d6b5f494fb16dd149a": [
+    "virtualization\\hyperv_on_windows\\user_guide\\checkpoints.md"
+  ],
   "a43c4b1981e5a2c5c56f361d02c02e2a1b0f6e51": [
     "virtualization\\hyperv_on_windows\\user_guide\\checkpoints.md"
   ],
@@ -91,6 +94,9 @@
   ],
   "4230e3947db642bf5c520ef9e32130b41e4ab3fa": [
     "virtualization\\hyperv_on_windows\\user_guide\\migrating_vms.md"
+  ],
+  "02c14920a4ae5365a71d7ca1e43b1f7d5dccb85a": [
+    "virtualization\\hyperv_on_windows\\user_guide\\remote_host_management.md"
   ],
   "d1498bd9bc60453542fdb1221b47fc1f7f2b8e94": [
     "virtualization\\hyperv_on_windows\\user_guide\\remote_host_management.md"
