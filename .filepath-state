@@ -1,4 +1,7 @@
 {
+  "53d0f485274b11af75ea6ed67fefd7cc5ecdf1c5": [
+    "virtualization\\community\\TOC.md"
+  ],
   "293cd908ea75ec62b9ca3cdbfaafe4980abae1ea": [
     "virtualization\\community\\TOC.md"
   ],
@@ -70,6 +73,9 @@
   ],
   "64d931f0509211ef361f5e86225a53ab5fdd9131": [
     "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_vmconnect.md"
+  ],
+  "d8a4692ec68e58781b25eea1753a7c356b40763f": [
+    "virtualization\\hyperv_on_windows\\TOC.md"
   ],
   "dbc749a61f352dc78621c582e6d5c1807eb00c6a": [
     "virtualization\\hyperv_on_windows\\TOC.md"
@@ -226,6 +232,9 @@
   ],
   "041b88830b633f85459d3b5be24b0d68ba8071bd": [
     "virtualization\\windowscontainers\\reference\\powershell_overview.md"
+  ],
+  "4afb6a5af36a8ec55d1f0038a7a40ac758a892e8": [
+    "virtualization\\windowscontainers\\reference\\ps_docker_comparison.md"
   ],
   "a9225b180b1df05d803b0ba2f23be237d7176f4d": [
     "virtualization\\windowscontainers\\reference\\ps_docker_comparison.md"
