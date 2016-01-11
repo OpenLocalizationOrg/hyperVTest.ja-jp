@@ -1,21 +1,21 @@
 ms.ContentId: 1C108951-97FF-4BA3-A929-27A4FEF160D2
-タイトル: このセクションにユーザー ガイド
+title: In this section - User Guide
 
-#このセクションの内容
+# In this section
 
 <table border="1" style="background-color:FFFFCC;border-collapse:collapse;border:1px solid FFCC00;color:000000;width:100%" cellpadding="15" cellspacing="3">
 <tr><td>
-[移行し、仮想マシンのアップグレード](migrating_vms.md) </td><td>HYPER-V の以前のバージョンから移行された仮想マシンをアップグレードします。</td></tr>
+[Migrate and upgrade virtual machines](migrating_vms.md) </td><td>Upgrade virtual machines that were migrated from previous versions of Hyper-V.</td></tr>
 <tr><td>
-[チェックポイントの使用](checkpoints.md) </td><td>チェックポイントを作成し、以前の状態にバーチャル マシンを元に戻すために使用します。</td></tr>
+[Working with checkpoints](checkpoints.md) </td><td>13-Nov update. Create checkpoints and use them to revert virtual machines to a previous state.</td></tr>
 <tr><td>
-[エクスポートとインポートの仮想マシン](export_import.md) </td><td>仮想マシンを複製またはから別のホストに移動します。 </td></tr>
+[Export and Import virtual machines](export_import.md) </td><td>Duplicate virtual machines or to move them from one host to another. </td></tr>
 <tr><td>
-[Windows PowerShell のダイレクトとを管理する](vmsession.md) </td><td>PowerShell のダイレクトを使用して、Windows の 10 の仮想マシンをリモートで管理します。 </td></tr>
+[Manage Windows with PowerShell Direct](vmsession.md) </td><td>Use PowerShell Direct to remotely manage a Windows 10 virtual machine. </td></tr>
 <tr><td>
-[リモートの HYPER-V ホストの管理](remote_host_management.md) </td><td> 診断し、HYPER-V マネージャーを使用して、ローカルまたはリモートのホストを管理します。 </td></tr>
+[Manage Remote Hyper-V Hosts](remote_host_management.md) </td><td> Diagnose and manage local or remote hosts using Hyper-V Manager. </td></tr>
 <tr><td>
-[トラブルシューティング](troubleshooting.md) </td><td> 一般的な問題の対処方法を紹介します。 </td></tr>
+[Troubleshooting](troubleshooting.md) </td><td> Find solutions to some common issues. </td></tr>
 </table>
 
 
@@ -24,3 +24,4 @@ ms.ContentId: 1C108951-97FF-4BA3-A929-27A4FEF160D2
 
 
 
+<!--HONumber=Jan16_HO1-->

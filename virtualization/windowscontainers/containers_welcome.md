@@ -1,57 +1,57 @@
 ms.ContentId: c9c3edaf-eca8-4afd-9510-09e78b46d560
-タイトル: コンテナーの [ようこそ]
+title: Containers Welcome
 
-#Windows のコンテナー
+# Windows Containers
 
-Windows のコンテナーでは、1 つのコンテナーのホスト上の複数の独立したアプリケーションを実行できるオペレーティング システム レベルの仮想化を提供します。
+Hey! This is a test update to see if this update will get include in the HO creation. Windows containers provide operating system level virtualization that allow you to run multiple isolated applications on one container host.
 
-次の表トピックを一覧表示の詳細については、Windows のコンテナーを提供する、ガイド付きの簡単なを開始できるように、Windows のコンテナー、およびその他のリソースを試すことができます。
+The following table list topics that provide more information about Windows containers, a guided quick start so that you can try out Windows containers, and additional resources.
 
 <table border="1" style="background-color:FFFFCC;border-collapse:collapse;border:1px solid FFCC00;color:000000;width:100%" cellpadding="15" cellspacing="3">
         <tr valign="top">
-        <td><center>!(media/try.png)</center></td>
+        <td><center>![](media/Chat_65.png)</center></td>
         <td>        
-              <p><strong>Windows のコンテナーを使ってみる</strong></p>
-              <p>次のリソースでは、展開、作成、および Windows のコンテナーの単純な管理を説明します。</p>
+              <p><strong>Get started with Windows Containers</strong></p>
+              <p>The following resources will walk you through the deployment, creation, and simple management of Windows Containers.</p>
             <ul>
-                <li class="unordered">[Windows Azure での Windows Server のコンテナーでの開始を取得](./quick_start/azure_setup.md)<br /><br /></li>
-                <li class="unordered">[開始 Windows サーバーのコンテナーで新しい HYPER-V 仮想マシンで](./quick_start/container_setup.md)<br /><br /></li>
-                <li class="unordered">[開始 Windows サーバーのコンテナーで既存の Windows Server TP3 Core インストール上](./quick_start/inplace_setup.md)<br /><br /></li>
-                <li class="unordered">[クイック スタート: Windows Server のコンテナーおよび PowerShell](./quick_start/manage_powershell.md)<br /><br /></li>
-                <li class="unordered">[クイック スタート: Windows Server のコンテナーと Docker](./quick_start/manage_docker.md)<br /><br /></li>      
+                <li class="unordered">[Get started with Windows Server Containers in Windows Azure](./quick_start/azure_setup.md)<br /><br /></li>
+                <li class="unordered">[Get started with Windows Server Containers in a new Hyper-V virtual machine](./quick_start/container_setup.md)<br /><br /></li>
+                <li class="unordered">[Get started with Windows Server Containers on an existing Windows Server TP3 Core installation](./quick_start/inplace_setup.md)<br /><br /></li>
+                <li class="unordered">[Quick Start: Windows Server Containers and PowerShell](./quick_start/manage_powershell.md)<br /><br /></li>
+                <li class="unordered">[Quick Start: Windows Server Containers and Docker](./quick_start/manage_docker.md)<br /><br /></li>      
             </ul>
         </td>
     </tr>
     <tr valign="top">
-        <td><center>!(media/1.png)</center></td>
+        <td><center>![](media/1.png)</center></td>
         <td valign="top">       
-                <p><strong>Windows のコンテナーについてください。</strong></p>
-                <p>次の記事では、Windows のコンテナーの概要について説明し、そのを提供します。</p>
+                <p><strong>Learn about Windows Containers</strong></p>
+                <p>The following articles provide an introduction and overview of Windows Containers.</p>
             <ul>
-                <li class="unordered">[は Windows コンテナー](./about/about_overview.md)<br /><br /></li>
-                <li class="unordered">[よく寄せられる質問](./about/faq.md)<br /><br /></li>
-                <li class="unordered">[進行中の作業](./about/work_in_progress.md)<br /><br /></li>
+                <li class="unordered">[About Windows Containers](./about/about_overview.md)<br /><br /></li>
+                <li class="unordered">[Frequently Asked Questions](./about/faq.md)<br /><br /></li>
+                <li class="unordered">[Work in Progress](./about/work_in_progress.md)<br /><br /></li>
             </ul>   
         </td>
     </tr>
     <tr valign="top">
-        <td><center>!(media/question.png)</center></td>
+        <td><center>![](media/question.png)</center></td>
         <td>        
-              <p><strong>コミュニティとサポートでの接続します。</strong></p>
-              <p>その他の技術的なサポート、およびコミュニティ リソース</p>
+              <p><strong>Connect with Community and Support</strong></p>
+              <p>Additional technical support and community resources</p>
             <ul>
-                <li class="unordered">[Windows Server のコンテナーのフォーラムで質問を投稿する](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers)<br /><br /></li>
-                <li class="unordered">[その他の Windows Server のコンテナーのリソース](https://msdn.microsoft.com/virtualization/community/community_overview)<br /><br /></li>
+                <li class="unordered">[Ask Question at the Windows Server Container Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers)<br /><br /></li>
+                <li class="unordered">[Additional Windows Server Container Resources](https://msdn.microsoft.com/virtualization/community/community_overview)<br /><br /></li>
             </ul>
         </td>
     </tr>   
     <tr valign="top">
-        <td><center>!(media/explore.png)</center></td>
+        <td><center>![](media/explore.png)</center></td>
         <td>        
-              <p><strong>サンプルをについてください。</strong></p>
-              <p>表示およびコンテナーのコード サンプルを再利用します。</p>
+              <p><strong>Explore Samples</strong></p>
+              <p>Explore and reuse container code samples.</p>
             <ul>
-                <li class="unordered">[コンテナーのサンプル コード](https://github.com/Microsoft/Virtualization-Documentation/tree/master/windows-server-container-samples)<br /><br /></li>
+                <li class="unordered">[Container Sample Code](https://github.com/Microsoft/Virtualization-Documentation/tree/master/windows-server-container-samples)<br /><br /></li>
             </ul>
         </td>
     </tr>
@@ -60,3 +60,4 @@ Windows のコンテナーでは、1 つのコンテナーのホスト上の複�
 
 
 
+<!--HONumber=Jan16_HO1-->

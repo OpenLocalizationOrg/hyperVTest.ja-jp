@@ -1,18 +1,18 @@
 ms.ContentId: B9414110-BEFD-423F-9AD8-AFD5EE612CDA
-タイトル: 手順 8: Windows PowerShell でのテスト
+title: Step 8: Experiment with Windows PowerShell
 
-#手順 8: は、Windows PowerShell を使用したテストします。
+# Step 8: Experiment with Windows PowerShell
 
-これで、HYPER-V を展開し、バーチャル マシンの作成および、これらの仮想マシンを管理するための基本事項を確認、PowerShell でこれらのアクティビティの多くを自動化する方法について説明します。
+Test update to see if new XLIF contains everything. Now that you have walked through the basics of deploying Hyper-V, creating virtual machines and managing these virtual machines, let’s explore how you can automate many of these activities with PowerShell.
 
-###HYPER-V のコマンドの一覧を返します
+### Return a list of Hyper-V commands
 
-1.  Windows の [スタート] ボタンの種類をクリックして **PowerShell**です。
-2.  PowerShell コマンドと、HYPER-V の PowerShell モジュールで利用可能な検索可能な一覧を表示するには、次のコマンドを実行します。
+1.  Click on the Windows start button, type **PowerShell**.
+2.  Run the following command to display a searchable list of PowerShell commands available with the Hyper-V PowerShell Module.
 
  ```powershell
 get-command –module hyper-v | out-gridview
-```
+ ```
   You get something like this:
 
   ![](media\command_grid.png)
@@ -21,7 +21,7 @@ get-command –module hyper-v | out-gridview
 
   ```powershell
 get-help get-vm
-```
+  ```
  The output shows you how to structure the command, what the required and optional parameters are, and the aliases that you can use.
 
  ![](media\get_help.png)
@@ -35,41 +35,40 @@ Use the `get-vm` command to return a list of virtual machines.
 
  ```powershell
 get-vm
-```
+ ```
  This displays something like this:
 
  ![](media\get_vm.png)
 
-2. To return a list of only powered on virtual machines add a filter to the `get-vm` command. A filter can be added by using the where-object command. For more information on filtering see the [Using the Where-Object](https://technet.microsoft.com/en-us/library/ee177028.aspx) documentation.   
+2. To return a list of only powered on virtual machines add a filter to the `get-vm` command. A filter can be added by using the where-object command. For more information on filtering see the [Using the Where-Object](https://technet.microsoft.com/en-us/library/ee177028.aspx) documentation.
 
  ```powershell
  get-vm | where {$_.State –eq ‘Running’}
  ```
-3.  電源のすべての仮想マシンの一覧を表示する、状態を無効には、次のコマンドを実行します。
-    このコマンドは、'Running' から 'Off' に変更、フィルターを使用して、手順 2. のコマンドのコピーです。
+3.  To list all virtual machines in a powered off state, run the following command. This command is a copy of the command from step 2 with the filter changed from ‘Running’ to ‘Off’.
 
  ```powershell
  get-vm | where {$_.State –eq ‘Off’}
  ```
 
-###起動し、仮想マシンをシャット ダウン
+### Start and shut down virtual machines
 
-1. 特定のバーチャル マシンを開始するには、仮想マシンの名前で、次のコマンドを実行します。
+1. To start a particular virtual machine, run the following command with name of the virtual machine:
 
  ```powershell
  Start-vm –Name <virtual machine name>
  ```
 
-2. 中のすべての電源を切り、仮想マシンを開始するには、これらのマシンの一覧を取得し、' start vm' コマンドのリストをパイプします。
+2. To start all currently powered off virtual machines, get a list of those machines and pipe the list to the 'start-vm' command:
 
   ```powershell
  get-vm | where {$_.State –eq ‘Off’} | start-vm
- ```
+  ```
 3. To shut down all running virtual machines, run this:
 
   ```powershell
  get-vm | where {$_.State –eq ‘Running’} | stop-vm
- ```
+  ```
 
 ### Create a VM checkpoint
 
@@ -106,13 +105,12 @@ The following example shows how to create a new virtual machine in the PowerShel
  New-VM @VM
   ```
 
-##ラップし、参照
+## Wrap up and References
 
-このドキュメントはいくつかのサンプル シナリオと同様に、HYPER-V の PowerShell モジュールに、エクスプ ローラーにいくつかの簡単な手順を説明しました。
-PowerShell HYPER-V モジュールの詳細については、次を参照してください。、 [の参照を Windows PowerShell での Hyper-v コマンドレット](https://technet.microsoft.com/%5Clibrary/Hh848559.aspx)です。
-
+This document has shown some simple steps to explorer the Hyper-V PowerShell module as well as some sample scenarios. For more information on the Hyper-V PowerShell module, see the [Hyper-V Cmdlets in Windows PowerShell reference](https://technet.microsoft.com/%5Clibrary/Hh848559.aspx).
 
 
 
 
 
+<!--HONumber=Jan16_HO1-->

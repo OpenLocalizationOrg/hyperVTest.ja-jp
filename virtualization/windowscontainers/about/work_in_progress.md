@@ -1,99 +1,83 @@
 ms.ContentId: 5bbac9eb-c31e-40db-97b1-f33ea59ac3a3
-タイトル: 進行中の作業
+title: Work in Progress
 
-#進行中の作業
+# Work in Progress
 
-ここで、問題を参照してください。 または、ご質問はありません、に掲載したり、 [フォーラム](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers)です。
+12-Nov update. If you don't see your problem addressed here or have questions, post them on the [forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers).
 
 -----------------------
 
 
-##一般的な機能
+## General functionality
 
-###コンテナーの Windows イメージは、コンテナーのホストに正確に一致する必要があります。
+### Windows Container Image must exactly match container host
 
-Windows Server のコンテナーには、オペレーティング システム イメージを構築して、レベルの修正プログラムを適用する点ではコンテナーのホストに一致する必要があります。
-不一致は、コンテナーや、ホストの不安定性や予期しない動作につながります。
+A Windows Server Container requires an operating system image that matches the container host in respect to build and patch level. A mismatch will lead to instability and or unpredictable behavior for the container and/or the host.
 
-Windows のコンテナーに対して更新プログラムをインストールする場合は、OS が一致する更新プログラムをダウンロードするコンテナーの基本 OS イメージを更新する必要がありますをホストします。
-
-
-**回避をするには。** 
-ダウンロードし、コンテナーのホストの OS バージョンとパッチ レベルが一致するコンテナーの基本イメージをインストールします。
+If you install updates against the Windows container host OS you will need to update the container base OS image to have the matching updates.
 
 
-###コマンドの散発的失敗--、もう一度やり直してください
-
-テストでコマンドしなければならないを複数回実行します。
-その他の操作に、同じ原則が適用されます。
-たとえば、新しいファイルを作成することが表示されない場合は、ファイルに手を加えるしてみてください。
+**Work Around:**   
+Download and install a container base image matching the OS version and patch level of the container host.
 
 
+### Commands sporadically fail -- try again
 
-これを行う場合は、お知らせを使用して [フォーラム](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers)です。
+In our testing, commands occasionally need to be run multiple times. The same principle applies to other actions.  
+For example, if you create a new file and it doesn't appear, try touching the file.
 
-** 回避する: **
-コマンドを何度も試されるように、スクリプトを作成します。
-コマンドが失敗した場合、再度実行してください。
+If you have to do this, let us know via [the forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers).
+
+** Work Around:  **  
+Build scripts such that they try commands multiple times. If a command fails, try again.
+
+### All non-C:/ drives are automatically mapped into new containers
+
+All non-C:/ drives available to the container host are automatically mapped into new running Windows Server Containers.
+
+At this point in time there is no way to selectively map folders into a container, as an interim work around drives are mapped automatically.
+
+**Work Around: **  
+We're working on it. In the future there will be folder sharing.
 
 
+### Windows Server Containers are starting very slowly
 
-###すべて非-c: ドライブが自動的に新しいコンテナーに割り当てられている/
+If your container is taking more than 30 seconds to start, it may be performing many duplicate virus scans.
 
-すべて非-c:/、コンテナーのホストで利用できるドライブは、新しい Windows Server コンテナーの実行中に自動的にマップします。
-
-この時点で方法はありませんのコンテナーにフォルダーを選択的にマップするように、中間の解決方法は、ドライブが自動的にマップします。
-
-** 回避する: **
-それに取り組んでいます。
-将来のあるフォルダーを共有する場合。
-
-
-###Windows Server のコンテナーは非常に時間がかかる作業を開始します。
-
-場合は、コンテナーには、30 秒以上を開始するがかかり、多くの重複するウイルス スキャンが実行することがあります。
-
-Windows Defender は、おそらくファイル コンテナー内のイメージが、OS のバイナリ ファイルとファイルのすべてをコンテナーの OS イメージに含めてを不必要にスキャンなどの多くのマルウェア対策ソリューションです。
-これは、新しいコンテナーを作成して、以前スキャンされていない新しいファイルのようになります「コンテナーのファイル」のすべてのマルウェアの観点からずっとときに発生します。
-したがって、コンテナー内のプロセスが、これらのファイルを読み取るしようとしています。 マルウェア対策コンポーネント回目のスキャンにファイルへのアクセスを許可する前にします。
-実際にはこれらのファイルは、コンテナーのイメージは、インポートまたはサーバーに取得したときに既にスキャンされていました。
-後で新しいインフラストラクチャのプレビューでは Windows Defender をなど、マルウェア対策ソリューションは、このような状況を認識してを複数のスキャンを回避するのにはそれに応じて動作できるようにの場所になります。
-
+Many anti-malware solutions, such as Windows Defender, maybe unnecessarily scanning files with-in container images including all of the OS binaries and files in the container OS image. This occurs when ever a new container is created and from the anti-malware’s perspective all of the “container’s files” look like new files that have not previously been scanned. So when processes inside the container attempt to read these files the anti-malware components first scan them before allowing access to the files. In reality these files were already scanned when the container image was imported or pulled to the server. In future previews new infrastructure will be in place such that anti-malware solutions, including Windows Defender, will be aware of these situations and can act accordingly to avoid multiple scans.
 
 --------------------------
 
 
-##ネットワーク
+## Networking
 
-###コンテナーごとにネットワーク コンパートメントの数
+### Number of network compartments per container
 
-このリリースでは、コンテナーごとに 1 つのネットワーク コンパートメントをサポートします。
-したがって、複数のネットワーク アダプターにコンテナーがある場合は、それぞれのアダプターで、同じネットワーク ポートをアクセスすることはできません (使用や 192.168.0.2:80 など、同じコンテナーに属する)。
+In this release we support one network compartment per container. This means that if you have a container with multiple network adapters, you cannot access the same network port on each adapter (e.g. 192.168.0.1:80 and 192.168.0.2:80 belonging to the same container).
 
-** 回避する: **
-複数のエンドポイントは、コンテナーによって公開される必要がある場合、は、NAT のポートのマッピングを使用します。
+**Work Around: **  
+If multiple endpoints need to be exposed by a container, use NAT port mapping.
 
-###Windows のコンテナーには、ip アドレスがされません。
+### Windows containers are not getting IPs
 
-DHCP の VM のスイッチを使用して、windows server のコンテナーに接続している場合は、コンテナーのホストをコンテナー、IP wwhile を受信する可能性があります。
+If you're connecting to the windows server containers with DHCP VM Switches it's possible for the container host to recieve an IP wwhile the containers do not.
 
-コンテナーは、169.254.*.* を取得します。***. *** APIPA の IP アドレスです。
+The containers get a 169.254.***.*** APIPA IP address.
 
-**回避をするには。**
-これは、共有、カーネルの副作用です。
-すべてのコンテナーには、同じ mac アドレスが実質的があります。
+**Work around:**
+This is a side effect of sharing the kernel. All containers affectively have the same mac address.
 
-MAC アドレスのコンテナーのホスト上のスプーフィングを有効にします。
+Enable MAC address spoofing on the container host.
 
-これは PowerShell を使用して実現できます。
+This can be achieved using PowerShell
 ```
 Get-VMNetworkAdapter -VMName "[YourVMNameHere]"  | Set-VMNetworkAdapter -MacAddressSpoofing On
 ```
 
-###ファイル共有の作成は、コンテナーでは機能しません
+### Creating file shares does not work in a Container
 
-現在、コンテナー内のファイル共有を作成することはできません。
-実行する場合 `「net share` 次のようなエラーが表示されます。
+Currently it is not possible to create a file share within a Container. If you run `net share` you will see an error like this:
 
 ```
 The Server service is not started.
@@ -107,10 +91,8 @@ A service specific error occurred: 2182.
 More help is available by typing NET HELPMSG 3547.
 ```
 
-** 回避する: **
-実行して、円形の他の方法を使用するには、コンテナーにファイルをコピーする場合 `net` コンテナー内で。
-たとえば、次のように入力します。
-
+**Work Around: **
+If you want to copy files into a Container you can use the other way round by running `net use` within the Container. For example:
 ```
 net use S: \\your\sources\here /User:shareuser [yourpassword]
 ```
@@ -118,140 +100,131 @@ net use S: \\your\sources\here /User:shareuser [yourpassword]
 --------------------------
 
 
-##アプリケーションの互換性
+## Application compatibility
 
-あるため、アプリケーションの互換性のある情報を分割することにしました mnay の質問については、アプリケーションが動作し、Windows Server のコンテナーでは機能しない、 [は単独で記事](../reference/app_compat.md)です。
+There are so mnay questions about which applications work and don't work in Windows Server Containers, we decided to break application compatability information into [its own article](../reference/app_compat.md).
 
-いくつかの最も一般的な問題はこちらからもします。
+Some of the most common issues are located here as well.
 
-###WinRM が Windows Server のコンテナー内で起動しません。
+### WinRM won't start in a Windows Server Container
 
-WinRM は、開始はのエラーをスローし、もう一度停止します。
-エラーは、イベント ログに記録されません。
+WinRM starts, throws an error, and stops again. Errors are not logged in the event log.
 
-**回避をするには。**
-WMI を使用して [RDP](#RemoteDesktopAccessOfContainers), 、または入力 PSSession ContainerID
+**Work Around:**
+Use WMI, [RDP](#RemoteDesktopAccessOfContainers), or Enter-PSSession -ContainerID
 
-###DISM を使用してコンテナー内の IIS と ASP.NET 4.5 または ASP.NET 3.5 をインストールことはできません。
+### Can't install ASP.NET 4.5 or ASP.NET 3.5 with IIS in a container using DISM
 
-Windows Server のコンテナー内のコンテナーでの IIS ASPNET45 のインストールは機能しません。
-インストールの進行状況スティック 95.5% 程度です。
+Installing IIS-ASPNET45 in a container doesn't work inside a Windows Server container. The installation progress sticks around 95.5%.
 
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45
 ```
 
-これは、ASP.NET 4.5 は、コンテナーで実行されないために失敗します。
+This fails because ASP.NET 4.5 doesn't run in a container.
 
-**回避をするには。**
-代わりに、IIS を使用する Web サーバーの役割をインストールします。
-ASP 5.0 が機能します。
-
+**Work Around:**  
+Instead, install the Web-Server role to use IIS. ASP 5.0 does work.
 
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Web-Server
 ```
 
-参照してください、 [アプリケーション互換性のある記事](../reference/app_compat.md) 詳細については、どのようなアプリケーションはコンテナー詰めことができます。
+See the [application compatability article](../reference/app_compat.md) for more information about what applications can be containerized.
 
 --------------------------
 
 
 
-##Docker 管理
+## Docker management
 
-###既定でセキュリティ保護されていない docker クライアント
+### Docker clients unsecured by default
 
-このプレリリース版では、docker 通信は検索する場所がわかっている場合はパブリックです。
+In this pre-release, docker communication is public if you know where to look.
 
-###Windows Server のコンテナーでは動作しない docker コマンド
+### Docker commands that don't work with Windows Server Containers
 
-コマンドが失敗します。
+Commands known to fail:
 
-| **Docker コマンド**| **これを実行しています。**| **エラー**| **メモ**|
+| **Docker command**| **Where it runs**| **Error**| **Notes**|
 |:-----|:-----|:-----|:-----|
-| **docker コミット**| image| Docker がコンテナーの実行を停止し、適切なエラー メッセージが表示されません。| A が停止しているコンテナーをコミットしています。コンテナーを実行するため::) それを処理します。|
-| **docker の相違点**| デーモン| エラー: windows graphdriver は Changes() をサポートしていません| |
-| **docker kill**| コンテナー| エラー: 無効なシグナル: 終了エラー: コンテナーを強制終了に失敗しました:| |
-| **docker 負荷**| image| 警告なしで失敗します。| エラーはありません。 が、イメージはいずれかで読み込みではありません。|
-| **docker の一時停止**| コンテナー| エラー: Windows コンテナーを一時停止することはできません。サポートされていません| |
-| **docker ポート**| コンテナー| | ポートを取得するが記載されていないもここには、RDP にできます。
-| **docker プル**| デーモン| エラー: ファイルのパスが見つかりません。私たちを実行できません。 コンテナーがこのイメージを使用します。| イメージの追加を取得するために使用することはできません。:) それを処理します。|
-| **docker の再起動**| コンテナー| エラー: システムのシャット ダウンが進行中です。| |
-| **docker を再開します。**| コンテナー| | 一時停止がまだ動作しないためにをテストすることはできません。|
-失敗した場合 (またはコマンドが予想以上には、異なる方法で失敗したかどうか) をお知らせリストもこれにない場合を使用して把握 [フォーラム](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers)です。
+| **docker commit**| image| Docker stops running container and doesn’t show correct error message| Committing a stopped container works.For running containers: We're working on it :)|
+| **docker diff**| daemon| Error: The windows graphdriver does not support Changes()| |
+| **docker kill**| container| Error: Invalid signal: KILL  Error: failed to kill containers:[]| |
+| **docker load**| image| Fails silently| No error but the image isn't loading either|
+| **docker pause**| container| Error: Windows container cannot be paused.May be not supported| |
+| **docker port**| container| | No port is getting listed even we are able to RDP.
+| **docker pull**| daemon| Error: System cannot find the file path.We cant run container using this image.| Image is getting added can't be used.We're working on it :)|
+| **docker restart**| container| Error: A system shutdown is in progress.| |
+| **docker unpause**| container| | Can't test because pause doesn't work yet.|
+
+If anything that isn't on this list fails (or if a command fails differently than expected), let us know via [the forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers).
 
 
 
-###Windows Server のコンテナーを部分的に使用する docker コマンド
+### Docker commands that partially work with Windows Server Containers
 
-一部の機能とコマンド。
+Commands with partial functionality:
 
-| **Docker コマンド**| **上で実行しています.**| **パラメータ**| **メモ**|
+| **Docker command**| **Runs on...**| **Parameter**| **Notes**|
 |:-----|:-----|:-----|:-----|
-| **docker をアタッチします。**| コンテナー| -いいえ stdin = false| コマンドには、ときに終了しない ctrl キーを押し P と ctrl キーを押し Q が押されました。|
-| | | -sig プロキシ = true| 動作します。|
-| **docker ビルド**| イメージ| -f, - ファイル| エラー: コンテキストを準備することができません。 を synlinks を取得できません。|
-| | | -force rm = false| 動作します。|
-| | | -キャッシュなし = false| 動作します。|
-| | | -q, - quiet = false| |
-| | | -rm = true| 動作します。|
-| | | -t, - タグ =""| 動作します。|
-| **docker ログイン**| デーモン| -e, -p、-u| sporratic 動作|
-| **docker プッシュ**| デーモン| | たまにを取得するエラーの「リポジトリは終了しない」です。|
-| **docker rm**| コンテナー| -f| エラー: システムのシャット ダウンが進行中です。|
-この一覧に表示されていないものが失敗した場合、コマンドが、想定よりも、異なる方法で失敗した場合、または回避策が見つかった場合は、お知らせを使用して [フォーラム](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers)です。
+| **docker attach**| container| --no-stdin=false| The command doesn't exit when Ctrl-P and CTRL-Q is pressed|
+| | | --sig-proxy=true| works|
+| **docker build**| images| -f, --file| Error: Unable to prepare context: Unable to get synlinks|
+| | | --force-rm=false| works|
+| | | --no-cache=false| works|
+| | | -q, --quiet=false| |
+| | | --rm=true| works|
+| | | -t, --tag=""| works|
+| **docker login**| daemon| -e, -p, -u| sporratic behavior|
+| **docker push**| daemon| | Getting occasional "repository does not exit" errors.|
+| **docker rm**| container| -f| Error: A system shutdown is in progress.|
+
+If anything that isn't on this list fails, if a command fails differently than expected, or if you find a work around, let us know via [the forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers).
 
 
-###50 文字までに制限は対話型の Docker セッションにコマンドを貼り付ける
+### Pasting commands to interactive Docker session is limited to 50 characters
 
-対話型の Docker セッションにコマンド ラインをコピーする場合に、50 文字に現在に制限されます。
-貼り付けられた文字列は単純に切り捨てられます。
+If you copy a command line into an interactive Docker session, it is currently limited to 50 characters. The pasted string is simply truncated.
 
-仕様ではこれで、制限の変換を処理します。
+This is not by design, we're working on lifting the restriction.
 
-###net を使用するには、ユーザー名またはパスワードを要求する代わりにシステム エラー 1223年が返されます。
+### net use returns System error 1223 instead of prompting for username or password
 
-回避策: では、ユーザー名とパスワードの両方、net を使用してを実行するときに指定します。
-たとえば、次のように入力します。
+Workaround: specify both, the username and password, when running net use. For example:
 ```
 net use S: \\your\sources\here /User:shareuser [yourpassword]
 ```
 
-###新しいコンテナーのイメージを作成するときに、HCS Shim エラー
+### HCS Shim errors when creating new container images
 
-次のようなエラー メッセージが表示されます。 場合、
+If you encounter error messages like this:
 ```
 hcsshim::ExportLayer - Win32 API call returned error r1=2147942523 err=The filename, directory name, or volume label syntax is incorrect. layerId=606a2c430fccd1091b9ad2f930bae009956856cf4e6c66062b188aac48aa2e34 flavour=1 folder=C:\ProgramData\docker\windowsfilter\606a2c430fccd1091b9ad2f930bae009956856cf4e6c66062b188aac48aa2e34-1868857733
 ```
 
-0 日の修正プログラムの Windows Server 2016 TP3 によってアドレス指定された問題がヒットしています。
-このエラーは、コンテナーでの Python 3.4.3.msi インストーラーまたはノード v0.12.7.msi を実行する場合にも発生します。
+You're hitting an issue addressed by the Zero Day Patch for Windows Server 2016 TP3. This error can also occur when running the Python-3.4.3.msi installer or node-v0.12.7.msi in a container.
 
-その他の hcsshim エラーをヒットした知らせを使用して [フォーラム](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers)です。
+If you hit other hcsshim errors, let us know via [the forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers).
 
 
-##リモート デスクトップでの windows server のコンテナーへのアクセス
+## Accessing windows server container with Remote Desktop
 
-Windows Server のコンテナーは、管理と対話して RDP セッションを使用できます。
+Windows Server Containers can be managed/interacted with through a RDP session.
 
-RDP を使用して、Windows Server コンテナーへのリモート接続するには、次の手順が必要です。
-コンテナーが NAT スイッチを介してネットワークに接続されていることが前提とします。
-これは、インストール スクリプトまたは Azure で新しい VM の作成を通じて、コンテナーのホストを設定するときに、既定値です。
+The following steps are needed to remotely connect to a Windows Server Container using RDP. It is assumed that the Container is connected to the network via a NAT switch. This is the default when setting up a Container host through the installation script or creating a new VM in Azure.
 
-** 接続すると、コンテナーに **
+** In the Container you want to connect to **
 
-Docker を使用して、または PowerShell を使用する場合に指定するコンテナーを管理するか、次の手順が必要な `- RunAsAdministrator` 、コンテナーに接続するときに切り替えます。
-コンテナーに接続するのには、次の手順を参照してください。
+The following steps require either managing the Container using Docker or, when using PowerShell, specifying the `-RunAsAdministrator` switch when connecting to the Container. Please take the following steps in the Container you want to connect to.
 
-1. コンテナーの IP アドレスを取得します。
+1. Obtain the Container's IP address
 
   ```
   ipconfig
   ```
 
-  次のようなものを返します
-
+  Returns something similar to this
   ```
   Windows IP Configuration
 
@@ -264,91 +237,74 @@ Docker を使用して、または PowerShell を使用する場合に指定す�
   Default Gateway . . . . . . . . . : 172.16.0.1
   ```
 
-  一般的にこれは形式 172.16.x.x で IPv4 アドレスに注意してください。
+  Please note the IPv4 Address which is typically in the format 172.16.x.x
 
-2. コンテナーの組み込みの管理者のユーザーのパスワードを設定します。
-
+2. Set the password for the builtin administrator user for the Container
   ```
   net user administrator [yourpassword]
   ```
 
-3. コンテナーの組み込みの管理者のユーザーを有効にします。
-
+3. Enable the builtin administrator user for the Container
   ```
   net user administrator /active:yes
   ```
 
-** には、コンテナーのホスト **
+** On the Container host **
 
-Windows サーバーに既定で有効になっているセキュリティが強化された Windows ファイアウォールが設定されているのでを RDP を操作するためにいくつかの通信のポートを開く必要があります。
-さらに、コンテナーは、コンテナーのホスト上のポート経由で到達可能であるために、ポートのマッピングが作成されます。
+Since Windows Server has the Windows Firewall with Advanced Security enabled by default we need to open some ports for communication in order for RDP to work. Additionally a port mapping is created so the Container is reachable through a port on the Container host.
 
-次の手順では、コンテナーのホスト上で管理者として起動 PowerShell が必要です。
+The following steps require a PowerShell launched as Administrator on the Container host.
 
-1. 既定の Windows の高度なファイアウォール経由の RDP ポートを許可します。
-
+1. Allow the default RDP port through the Windows Advanced Firewall
   ```
   New-NetFirewallRule -Name "RDP" -DisplayName "Remote Desktop Protocol" -Protocol TCP -LocalPort @(3389) -Action Allow
   ```
 
-2. コンテナーへの RDP 接続の追加のポートを許可します。
-
+2. Allow an additional port for RDP connection to the Container
   ```
   New-NetFirewallRule -Name "ContainerRDP" -DisplayName "RDP Port for connecting to Container" -Protocol TCP -LocalPort @(3390) -Action Allow
   ```
 
-この手順では、コンテナーのホスト上のポート 3390 を開きます。
-これについては、コンテナーに RDP セッションを使用します。
-複数のコンテナーに接続する場合は、中に、追加のポート番号を提供するこの手順を繰り返すことができます。
+  This step opens up port 3390 on the Container host. It will be used to open a RDP session to the Container. If you want to connect to multiple Containers, you can repeat this step while providing additional port numbers. 
 
+3. Add a port mapping for the existing NAT
 
-3. 既存の NAT のポートのマッピングを追加します。
-    
-    ここでは、コンテナー内では、手順 1. から IP アドレスが必要があります。
-
+  In this step you need the IP address from step 1 within the Container
   ```
   Add-NetNatStaticMapping -NatName ContainerNAT -Protocol TCP -ExternalPort 3390 -ExternalIPAddress 0.0.0.0 -InternalPort 3389 -InternalIPAddress [your container IP]
   ```
 
-  ここでを確認するコンテナーでは、ポート 3389 を 3390 のポート上取得されるコンテナーのホストへの通信がリダイレクトされることを指定する IP アドレスでを実行しています。
+  Here you ensure that communication to the Container host which is coming in on port 3390 is redirected to port 3389 on the Container running at the IP address you specify.
 
-** RDP を使用してコンテナーに接続します *。*
+** Connect to the container via RDP **
 
-最後には、RDP を使用して、コンテナーに接続できます。
-リモート デスクトップ クライアントを持つシステムに次のコマンドを実行してください。 そのためには (コンテナーのホスト仮想マシンを実行しているシステムなど) をインストールします。
-
-
-```
+Finally you can connect to the Container using RDP. In order to do that please run the following command on a system which has the Remote Desktop Client installed (e.g. your system running the Container host VM): 
+  ```
 mstsc /v:[ContainerHostIP]:3390 /prompt
 ```
 
-指定してください `管理者` ユーザー名とパスワードとして選択したパスワードです。
+Please specify `administrator` as the user name and the password that you chose as the password.
 
-リモート デスクトップ接続するように求められます証明書のエラーに関係なく、システムに接続するかどうか。
-[はい] を選択する場合は、RDP 接続が開かれます。
+The Remote Desktop Connection will ask you whether you want connect to the system despite certificate errors. If you select "Yes", the RDP connection will be opened.
 
-
-
-**注:** 、コンテナー ログオフがシャット ダウンさせないようにすることがなく、コンテナーの RDP セッションを終了します。
-コンテナーをシャット ダウンする前に、("exit"または RDP ウィンドウを閉じるだけ) せずに"にある [ログオフを」と入力して RDP セッションを終了することを確認してください。
+**Note:** Exiting the container RDP session without logoff may prevent the container from shutting down. Please make sure to exit the RDP session by typing "logoff" (instead of "exit" or just closing the RDP window) before shutting the container down.
 
 --------------------------
 
 
-##PowerShell の管理
+## PowerShell management
 
-###入力 PSSession containerid 引数を持つ、New-pssession しません。
+### Enter-PSSession has containerid argument, New-PSSession doesn't
 
-これは、正しいです。
-後で完全 cimsession サポートを計画しています。
+This is correct. We're planning on full cimsession support in the future.
 
 
-音声機能の要求を [フォーラム](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers)です。
-
+Feel free to voice feature requests in [the forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowscontainers).
 
 --------------------------
 
-[コンテナーのホームに戻る](../containers_welcome.md)
+[Back to Container Home](../containers_welcome.md)
 
 
 
+<!--HONumber=Jan16_HO1-->

@@ -1,55 +1,54 @@
-#HyperV
+# HyperV
 
-##概要
+## About
 
-###[Windows Hyperv](about/hyperv_on_windows.md)
+### [Hyperv on Windows](about/hyperv_on_windows.md)
 
-###[サポートされているゲスト OS](about/supported_guest_os.md)
+### [Supported Guest OS](about/supported_guest_os.md)
 
-###[新規作成機能](about/whats_new.md)
+### [Whats New](about/whats_new.md)
 
+## Develop
 
+### [Make Mgmt Service](develop/make_mgmt_service.md)
 
-##開発
+### [Powershell Snippets](develop/powershell_snippets.md)
 
-###[管理サービスを作成する](develop/make_mgmt_service.md)
+## Quick Start
 
-###[Powershell のスニペット](develop/powershell_snippets.md)
+### [Walkthrough](quick_start/walkthrough.md)
 
-##クイック スタート
+### [walkthrough checkpoints](quick_start/walkthrough_checkpoints.md)
 
-###[チュートリアル](quick_start/walkthrough.md)
+### [walkthrough compatibility](quick_start/walkthrough_compatibility.md)
 
-###[チェックポイントのチュートリアル](quick_start/walkthrough_checkpoints.md)
+### [walkthrough create_vm](quick_start/walkthrough_create_vm.md)
 
-###[チュートリアルの互換性](quick_start/walkthrough_compatibility.md)
+### [walkthrough export_import](quick_start/walkthrough_export_import.md)
 
-###[チュートリアル create_vm](quick_start/walkthrough_create_vm.md)
+### [walkthrough install](quick_start/walkthrough_install.md)
 
-###[チュートリアル export_import](quick_start/walkthrough_export_import.md)
+### [walkthrough powershell](quick_start/walkthrough_powershell.md)
 
-###[チュートリアルのインストール](quick_start/walkthrough_install.md)
+### [walkthrough virtual switch](quick_start/walkthrough_virtual_switch.md)
 
-###[チュートリアル powershell](quick_start/walkthrough_powershell.md)
+### [walkthrough vmconnect](quick_start/walkthrough_vmconnect.md)
 
-###[仮想スイッチのチュートリアル](quick_start/walkthrough_virtual_switch.md)
+## User Guide
 
-###[チュートリアルの vmconnect](quick_start/walkthrough_vmconnect.md)
+### [checkpoints](user_guide/checkpoints.md)
 
-##ユーザー ガイド
+### [export import](user_guide/export_import.md)
 
-###[チェックポイント](user_guide/checkpoints.md)
+### [migrating vms](user_guide/migrating_vms.md)
 
-###[インポートのエクスポート](user_guide/export_import.md)
+### [remote host management](user_guide/remote_host_management.md)
 
-###[仮想マシンを移行する](user_guide/migrating_vms.md)
+### [troubleshooting](user_guide/troubleshooting.md)
 
-###[リモート ホストの管理](user_guide/remote_host_management.md)
+### [user guide nav](user_guide/user_guide_nav.md)
 
-###[トラブルシューティング](user_guide/troubleshooting.md)
-
-###[ユーザー ガイド nav](user_guide/user_guide_nav.md)
-
-###[vmsession](user_guide/vmsession.md)
+### [vmsession](user_guide/vmsession.md)
 
 
+<!--HONumber=Jan16_HO1-->
