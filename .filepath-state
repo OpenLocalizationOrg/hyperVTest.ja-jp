@@ -32,6 +32,9 @@
   "822e6cee5989d29adf7c12b0b37cbdf01a96c88c": [
     "virtualization\\hyperv_on_windows\\quick_start\\walkthrough.md"
   ],
+  "106e9fed88aef9562030ff3de14a549146ee54a1": [
+    "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_checkpoints.md"
+  ],
   "b33e429df0ccc58eec72ad44ce1510471af95a98": [
     "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_checkpoints.md"
   ],

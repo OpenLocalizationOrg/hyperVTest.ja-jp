@@ -6,14 +6,14 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\hyperv_on_windows\quick_start\walkthrough_checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/da5193922ac589aa15547984a10f61df73ba68b4/virtualization/hyperv_on_windows/quick_start/walkthrough_checkpoints.md) | OutofSyncHandedBackSuccess | [Details](#b33e429df0ccc58eec72ad44ce1510471af95a98169)
+ [virtualization\hyperv_on_windows\quick_start\walkthrough_checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/7ed3aba7e45f862b6260f42d142943913df3fccf/virtualization/hyperv_on_windows/quick_start/walkthrough_checkpoints.md) | OutofSyncHandedBackSuccess | [Details](#106e9fed88aef9562030ff3de14a549146ee54a1169)
 
 ## Item Details
-##### <a name='b33e429df0ccc58eec72ad44ce1510471af95a98169'></a> Source: [virtualization\hyperv_on_windows\quick_start\walkthrough_checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/da5193922ac589aa15547984a10f61df73ba68b4/virtualization/hyperv_on_windows/quick_start/walkthrough_checkpoints.md)
+##### <a name='106e9fed88aef9562030ff3de14a549146ee54a1169'></a> Source: [virtualization\hyperv_on_windows\quick_start\walkthrough_checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/7ed3aba7e45f862b6260f42d142943913df3fccf/virtualization/hyperv_on_windows/quick_start/walkthrough_checkpoints.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [walkthrough_checkpoints.06ccef918ac38bd6b778e8f9277879f20d6e1fd9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/29cc9dec98aaa3cf308944fe9a7f3e68f6fe73b5/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/walkthrough_checkpoints.06ccef918ac38bd6b778e8f9277879f20d6e1fd9.ja-jp.xlf)
-* Handoff Datetime: 2016-01-14 12:39:40
+* Handoff File: [walkthrough_checkpoints.06ccef918ac38bd6b778e8f9277879f20d6e1fd9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/b018e51f03dce0340f3d2b17b591a265de7f2ce7/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/walkthrough_checkpoints.06ccef918ac38bd6b778e8f9277879f20d6e1fd9.ja-jp.xlf)
+* Handoff Datetime: 2016-01-14 12:54:48
 * Handoff Reason: Include
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
