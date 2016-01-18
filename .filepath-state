@@ -83,6 +83,9 @@
   "3495e4aa7b612a8e1a394afeb02f42f62eb7716d": [
     "virtualization\\windowscontainers\\quick_start\\manage_docker.md"
   ],
+  "ecf704776198d2aa9f274a7a5dfac99b59bc9e44": [
+    "virtualization\\windowscontainers\\quick_start\\manage_powershell.md"
+  ],
   "68012ade3e635310f9289881babc17277de8b50b": [
     "virtualization\\windowscontainers\\quick_start\\manage_powershell.md"
   ],
