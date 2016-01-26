@@ -300,6 +300,9 @@
   "367d56d6ba500771f4a03e2296eca6bb079d891e": [
     "virtualization\\windowscontainers\\media\\explore.png"
   ],
+  "30fdbdfbb66dcd22dd166646edc857724979376a": [
+    "virtualization\\hyperv_on_windows\\about\\supported_guest_ms.md"
+  ],
   "b0a1d4eaf7787cafeeb5777d4d869330f94793cd": [
     "virtualization\\hyperv_on_windows\\about\\supported_guest_ms.md"
   ],
