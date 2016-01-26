@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 2
-[ In Sync Handback Files ](#insync-handback-success-list)| 110
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 1
+[ In Sync Handback Files ](#insync-handback-success-list)| 111
 [ Ignored Files ](#ignored-list)| 153
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -27,7 +27,6 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [virtualization\hyperv_on_windows\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/aa412242b0eceaac87c21fc1f0aafb8fe26b4034/virtualization/hyperv_on_windows/community_overview.md) | OutofSyncHandedBackSuccess | [Details](#9f095bf008f89cdaca0e2a1f1bc683232df24dd7101)
- [virtualization\windowscontainers\quick_start\manage_powershell.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/9cbd523c2d5eb9c618da26e9ad389dc203f6d063/virtualization/windowscontainers/quick_start/manage_powershell.md) | OutofSyncHandedBackSuccess | [Details](#83ede64998d302769fe95b606da20296f3bccae5225)
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
@@ -125,6 +124,7 @@
  [virtualization\windowscontainers\quick_start\container_setup.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1722dcf8999ee978b3c34f2399eb0fbad3b2a9a3/virtualization/windowscontainers/quick_start/container_setup.md) | InSyncHandedBackSuccess | [Details](#e9fd87caa9aed0c8e7875bada45160f408f53e6e222)
  [virtualization\windowscontainers\quick_start\inplace_setup.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1722dcf8999ee978b3c34f2399eb0fbad3b2a9a3/virtualization/windowscontainers/quick_start/inplace_setup.md) | InSyncHandedBackSuccess | [Details](#9f6d0de27c15eab1462e63ea299dd928c6790e82223)
  [virtualization\windowscontainers\quick_start\manage_docker.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1722dcf8999ee978b3c34f2399eb0fbad3b2a9a3/virtualization/windowscontainers/quick_start/manage_docker.md) | InSyncHandedBackSuccess | [Details](#3495e4aa7b612a8e1a394afeb02f42f62eb7716d224)
+ [virtualization\windowscontainers\quick_start\manage_powershell.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/9cbd523c2d5eb9c618da26e9ad389dc203f6d063/virtualization/windowscontainers/quick_start/manage_powershell.md) | InSyncHandedBackSuccess | [Details](#83ede64998d302769fe95b606da20296f3bccae5225)
  [virtualization\windowscontainers\quick_start\media\cmd.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/2b4f38e2b22fc26e8ed59ed48fb95a400882a312/virtualization/windowscontainers/quick_start/media/cmd.png) | InSyncHandedBackSuccess | [Details](#381c1908855b7bfb04cda840a0792a563345b1a8229)
  [virtualization\windowscontainers\quick_start\media\containerhost2.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/2b4f38e2b22fc26e8ed59ed48fb95a400882a312/virtualization/windowscontainers/quick_start/media/containerhost2.png) | InSyncHandedBackSuccess | [Details](#439993aa3c0ae15d11beb2046585c1bb19629c87231)
  [virtualization\windowscontainers\quick_start\media\docker1.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/2b4f38e2b22fc26e8ed59ed48fb95a400882a312/virtualization/windowscontainers/quick_start/media/docker1.png) | InSyncHandedBackSuccess | [Details](#09f8ea3c577b2683ba069e9b197ef3f5c9681ead240)
@@ -3065,18 +3065,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='83ede64998d302769fe95b606da20296f3bccae5225'></a> Source: [virtualization\windowscontainers\quick_start\manage_powershell.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/9cbd523c2d5eb9c618da26e9ad389dc203f6d063/virtualization/windowscontainers/quick_start/manage_powershell.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [virtualization\windowscontainers\quick_start\manage_powershell.md](https://github.com/OpenLocalizationOrg/hyperVTest.ja-jp/blob/3b8e4bf10f3d0c00fd26f87d90357aaa61f320d6/virtualization/windowscontainers/quick_start/manage_powershell.md)
 * Handoff File: [manage_powershell.fccfd13be3f4bd16afbe4f31a5ca5ed4e93806b7.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/d315f47b5e8ddeabdcd225347fe4af7a1b0926ff/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/manage_powershell.fccfd13be3f4bd16afbe4f31a5ca5ed4e93806b7.ja-jp.xlf)
 * Handoff Datetime: 2016-01-21 08:33:26
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [virtualization\windowscontainers\quick_start\manage_powershell.md](https://github.com/OpenLocalizationOrg/hyperVTest.ja-jp/blob/9f989a393c4d7b5563400cc6ccd79ceace017f6d/virtualization/windowscontainers/quick_start/manage_powershell.md)
-* Current Handback File: [manage_powershell.fccfd13be3f4bd16afbe4f31a5ca5ed4e93806b7.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/086340d9e09f645ec173be22ad3b6b840b875486/ol-handback/OpenLocalizationOrg/hyperVTest.ja-jp/master/manage_powershell.fccfd13be3f4bd16afbe4f31a5ca5ed4e93806b7.ja-jp.xlf)
-* Current Handback Datetime: 2016-01-11 08:40:22
+* Handback File: [manage_powershell.fccfd13be3f4bd16afbe4f31a5ca5ed4e93806b7.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/47b4ec347520686992c0286cc5f0039ab00e09ce/ol-handback/OpenLocalizationOrg/hyperVTest.ja-jp/master/manage_powershell.fccfd13be3f4bd16afbe4f31a5ca5ed4e93806b7.ja-jp.xlf)
+* Handback Datetime: 2016-01-26 21:55:31
 * [Back to Top](#report-top)
 
 ##### <a name='62712c1c810e5e6fd902a4a81b1b55400408aa3f226'></a> Source: [virtualization\windowscontainers\quick_start\media\App-in-Container-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/aa412242b0eceaac87c21fc1f0aafb8fe26b4034/virtualization/windowscontainers/quick_start/media/App-in-Container-Green.png)
