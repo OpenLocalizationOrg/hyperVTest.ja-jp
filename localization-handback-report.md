@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [virtualization\hyperv_on_windows\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/aa412242b0eceaac87c21fc1f0aafb8fe26b4034/virtualization/hyperv_on_windows/community_overview.md) | InSyncHandedBackSuccess | [Details](#9f095bf008f89cdaca0e2a1f1bc683232df24dd7101)
 
 ## Item Details
-##### <a name='9f095bf008f89cdaca0e2a1f1bc683232df24dd7101'></a> Source: [virtualization\hyperv_on_windows\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/aa412242b0eceaac87c21fc1f0aafb8fe26b4034/virtualization/hyperv_on_windows/community_overview.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [virtualization\hyperv_on_windows\community_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest.ja-jp/blob/e20e3e37a6e3ecc4aeb748efa398b28960aed916/virtualization/hyperv_on_windows/community_overview.md)
-* Handoff File: [community_overview.ce517e45719221eec569f55dd38764b6e117cfbb.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/acf91afa0bb1b6c6374559e5954c92d67f1d1472/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/community_overview.ce517e45719221eec569f55dd38764b6e117cfbb.ja-jp.xlf)
-* Handoff Datetime: 2016-01-26 20:05:30
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [community_overview.ce517e45719221eec569f55dd38764b6e117cfbb.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/83bb31fb4c350580633102b5c10a882d258831fb/ol-handback/OpenLocalizationOrg/hyperVTest.ja-jp/master/community_overview.ce517e45719221eec569f55dd38764b6e117cfbb.ja-jp.xlf)
-* Handback Datetime: 2016-01-26 22:47:40
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
