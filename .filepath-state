@@ -11,6 +11,9 @@
   "c7baf8edb6c8fd627783b8da351f77f2b9957d7b": [
     "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_compatibility.md"
   ],
+  "d19d3ffd95b9ac942866114922e740fc3b747652": [
+    "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_create_vm.md"
+  ],
   "85f096222dc7b1f855cf2d3f5f9b74a1247ddea6": [
     "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_create_vm.md"
   ],
