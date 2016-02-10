@@ -20,6 +20,9 @@
   "53d997b02de228f6adadd28a761ddfc313d31b17": [
     "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_export_import.md"
   ],
+  "4cc306b2a660677961443d3cf14f442ad126913c": [
+    "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_install.md"
+  ],
   "ae6ab6d7e78f43b2f9f6bf8c24664daf683e9310": [
     "virtualization\\hyperv_on_windows\\quick_start\\walkthrough_install.md"
   ],
