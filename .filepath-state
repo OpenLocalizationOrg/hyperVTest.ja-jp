@@ -5382,5 +5382,993 @@
   ],
   "777f9908acc4ad22652a6297ed7dd4953e9dc69e": [
     "virtualization\\machine-learning\\media\\machine-learning-what-is-ml-studio\\azure-ml-studio-diagram.jpg"
+  ],
+  "b7068fd4cb6727d5bff41c9ae0e10903d0501887": [
+    "virtualization\\mobile-services\\mobile-services-android-get-started-data.md"
+  ],
+  "4998db3d28a2b9aac993cfe384face1c7a38991f": [
+    "virtualization\\mobile-services\\media\\mobile-services-android-get-started-data\\mobile-todoitem-data-browse.png",
+    "virtualization\\mobile-services\\media\\mobile-services-windows-phone-get-started-data\\mobile-todoitem-data-browse.png"
+  ],
+  "97586520a8f266a14cc2d85705b98288b246af07": [
+    "virtualization\\mobile-services\\mobile-services-android-get-started-offline-data.md"
+  ],
+  "d9df31e3205ee7113ebf7c5442fbcf9e91dead4c": [
+    "virtualization\\mobile-services\\mobile-services-android-get-started-users.md"
+  ],
+  "046446ce11faef28f008526da2c6e2162680380b": [
+    "virtualization\\mobile-services\\mobile-services-android-get-started.md"
+  ],
+  "502eefe6251eb30c83f6fda71d5217c4ce4a2ce3": [
+    "virtualization\\mobile-services\\media\\mobile-services-android-get-started\\mobile-quickstart-completed-android.png",
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-android-get-started\\mobile-quickstart-completed-android.png",
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-android-get-started\\mobile-quickstart-completed-android.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-android-get-started\\mobile-quickstart-completed-android.png"
+  ],
+  "c09bcfb56e956d8f3af115693f51af7262971665": [
+    "virtualization\\mobile-services\\media\\mobile-services-android-get-started\\mobile-portal-quickstart-android1.png"
+  ],
+  "693c75b7891648e74216eb6bd62a310c8788d84d": [
+    "virtualization\\mobile-services\\media\\mobile-services-android-get-started\\mobile-quickstart-steps-android-AS.png"
+  ],
+  "b766c03fa16dc64c3c702b0449a7d33ebb77fb29": [
+    "virtualization\\mobile-services\\mobile-services-android-how-to-use-client-library.md"
+  ],
+  "47270871a6779457796b2289034373ce48e365b8": [
+    "virtualization\\mobile-services\\mobile-services-android-upload-data-blob-storage.md"
+  ],
+  "df1c83d130a7dc5b0b57ed080ecca267cf688a86": [
+    "virtualization\\mobile-services\\mobile-services-concepts-links.md"
+  ],
+  "55e6568aaab8bbb9369c3af6021a85fe7ac7f4e1": [
+    "virtualization\\mobile-services\\mobile-services-disaster-recovery.md"
+  ],
+  "329d88653e314766ee77455cbcb8c51297fb5547": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-android-get-started-push.md"
+  ],
+  "98f8f3b154e66b72f9a07bf8de8c72dc51ab5e82": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-android-get-started-users.md"
+  ],
+  "1207c4310b81e8ef1f4d9fa7a8adaa1234ae58d1": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-android-get-started.md"
+  ],
+  "c2d9a8e0ac2677e74522859a1772a07e9d1528e9": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-android-get-started\\mobile-quickstart-steps-vs-AS.png",
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-android-get-started\\mobile-quickstart-steps-android-AS.png"
+  ],
+  "cc8c9aa269d8b6154d3a5cb80c8dda30ab56ddb4": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-define-custom-api.md"
+  ],
+  "b536a0fc610efe8d3785aca771c38bd2847f6d64": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-get-started-custom-authentication.md"
+  ],
+  "3ad49423bdeac78b4703e790cdab6b2ecfb8b882": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-get-started-custom-authentication\\mobile-services-dotnet-backend-custom-auth-test-client.png"
+  ],
+  "596b4f7e4f28e95cfd435ab500c26119731da75e": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-get-started-custom-authentication\\mobile-services-dotnet-backend-custom-auth-send-register.png"
+  ],
+  "a951eb9a45efcbe6955a7bd01bbc266463325954": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-get-started-custom-authentication\\mobile-services-dotnet-backend-custom-auth-login-result.png"
+  ],
+  "4374293e0af5ac21446b3e337f25a88df4dcba02": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-get-started-custom-authentication\\mobile-services-dotnet-backend-custom-auth-access-endpoint.png"
+  ],
+  "60f557bcf167e5c003d0aa1b5dfe692accb32fb6": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-get-started-custom-authentication\\mobile-services-dotnet-backend-custom-auth-access-success.png"
+  ],
+  "277550bb7b011f8ebf71515a3328655641800e3d": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-how-to-configure-iis-express.md"
+  ],
+  "1136f30f67493fd4375c1ad3ab13619a883cfc09": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-how-to-troubleshoot.md"
+  ],
+  "0afad5bafbdeebb9b43ac90201229f6a55cc56fe": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\6.png"
+  ],
+  "283362adeeb07a900c37d83381af634a7c1f1573": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\7.png"
+  ],
+  "4709643f967ec94f3c7fa91d134deac30c62deec": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\8.png"
+  ],
+  "3774376d50aeb19531abdad29ab36fe3c513e970": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\9.png"
+  ],
+  "ddd97fef5fe09a84476a554703ca9334a8c2a898": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\10.png"
+  ],
+  "4f3ed3430215287e9aba5f45bbbe3c1f3b80fd25": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\1.png"
+  ],
+  "3b344be5e73ae0eef6e840b59eccb37bb165c5ff": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\2.png"
+  ],
+  "140a0886dcaf322914ac03446678622dea0309d9": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\3.png"
+  ],
+  "1ccabf03f00df75aee5035451ada3a93763ce87a": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\4.png"
+  ],
+  "074e64bef0ae0ffcd201b78c10ca878bc294cee2": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\5.png"
+  ],
+  "312f906792f5c7df60ebb398821fa27bfa05da88": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\11.png"
+  ],
+  "d4d388ca4e2669bfd6cef07b4cee90a02334e470": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\12.png"
+  ],
+  "959257e2bc7107e3afa7f3b72f66080de8a24045": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\13.png"
+  ],
+  "767cc86f470e83b9845240eecf08379d6a8c9205": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-how-to-troubleshoot\\14.png"
+  ],
+  "1677ce9c30b62f9ac76d25f56c70a4da1933efbd": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-how-to-use-code-first-migrations.md"
+  ],
+  "f7cc9fd2b6430e6dcf3e79c9d5e0cf8b231f36ad": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-hybrid-connections-get-started.md"
+  ],
+  "7e9c3c2bdcf32439268ab7629b5455f7a134d2bc": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-hybrid-connections-get-started\\11.png"
+  ],
+  "041d497d701e01bb4d77fc411a70fe023529d114": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-ios-adal-sso-authentication.md"
+  ],
+  "c749e427c966e651d00dc5f73a77d3369654ee5c": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-ios-adal-sso-authentication\\mobile-services-app-run.png"
+  ],
+  "6e36759ffacb6d3da68c53b86a67103fc4c41d51": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-ios-get-started-push.md"
+  ],
+  "ae270e450c937f422a9f3356c2864cf973cbcbf3": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-ios-get-started-users.md"
+  ],
+  "b58a0e863e64a48d3beb86263542260219ebf1c5": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-ios-get-started.md"
+  ],
+  "0f982bb9a8a1d2abbaf5438120d369e6c9a41b6f": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-ios-push-notifications-app-users.md"
+  ],
+  "a12f7f77603f69bcb646940cfb013ba0e5e8e1df": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-schedule-recurring-tasks.md"
+  ],
+  "59cb9e532ec6a71acc6fb172e36a85dcb21f1d53": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-schedule-recurring-tasks\\add-linq2twitter-nuget-package.png"
+  ],
+  "ffaff0c622b6b9239d35c477f891232fcf0e7123": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-schedule-recurring-tasks\\add-component-model-reference.png"
+  ],
+  "72076a4372d2b470837efcdd5b2a13c9369168da": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-schedule-recurring-tasks\\mobile-service-start-page.png"
+  ],
+  "fc037ee579a8513d5d7ac509bb0d2071ce61bd9a": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-schedule-recurring-tasks\\mobile-service-try-this-out.png"
+  ],
+  "900bf81837425079b39a73db408084de9d1ca09a": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-schedule-recurring-tasks\\create-new-job.png"
+  ],
+  "90405f80e9330d45eb45d71bf8ac7ec96ed21b4d": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-schedule-recurring-tasks\\manage-sql-azure-database.png"
+  ],
+  "4d67cc8e8fe01b67992035d6361271260b24168d": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-service-side-authorization.md"
+  ],
+  "b0f21491e6a72de7182e5d3f49320f67f0b4becc": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-store-code-source-control.md"
+  ],
+  "162facff84b9d79d3f5262369cf09a66c16fd3ac": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-store-code-source-control\\mobile-service-startup.png"
+  ],
+  "b1866ac1266383b35aa07568da5693c1adcd6a12": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-store-data-table-storage.md"
+  ],
+  "0f81f699c22993b287d4c79132f1fba8c29fae81": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-store-data-table-storage\\mobile-add-storage-nuget-package-dotnet.png"
+  ],
+  "e7251f11ada91252ae909348a84ac02ca631f27c": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-store-data-table-storage\\mobile-blob-storage-app-settings.png"
+  ],
+  "87a17e71c9e939798ff3c6ad41248d978ccc6330": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-use-existing-sql-database.md"
+  ],
+  "03c3962a7045bc0feb261cc715fff8e2eae4f388": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-windows-store-dotnet-aad-rbac.md"
+  ],
+  "14bec5d8551753bd08bd07e832a49b0e09162671": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-aad-rbac\\add-authorize-aad-role-class.png"
+  ],
+  "aaa83dace95ebb5b5285ac8d4f9d335fe4f2e46d": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-windows-store-dotnet-get-started.md"
+  ],
+  "358e73fec949a05faa25efb8e64ab9dfd2be83b0": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-get-started\\mobile-quickstart-steps.png"
+  ],
+  "391ea185462c7ffdcfdc03736a7ebcb66f8b99ac": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard.md"
+  ],
+  "60d12e5eeee871dfd120f43b822954a82bd1eb8b": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\01leaderboard.png"
+  ],
+  "df3b033a1c1959b526bd260dc46b3fed72886a46": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\02leaderboard.png"
+  ],
+  "3ba95ab18506428718c444b3d66b5dd2269027dc": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\03leaderboard.png"
+  ],
+  "d92602f361f9dccb775ea44dca592f68d3d91a1b": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\04leaderboard.png"
+  ],
+  "dca812be1f0f4cae899df7e98581f329ad331158": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\05leaderboard.png"
+  ],
+  "f9d1512b3350d39517184b18770b8fc53d45f1ff": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\06leaderboard.png"
+  ],
+  "40e4e10b6eb2da39d873012e5aab1da0a3e4b3a2": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\07leaderboard.png"
+  ],
+  "5db3cd3a06ac161ec92db5d9df66af32666e414d": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\08leaderboard.png"
+  ],
+  "92a2d729798a06c20928b06ae5bd8bee06042eaf": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\10leaderboard.png"
+  ],
+  "feaf67179eea037d4081e378d7863fbaaa666b92": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\11leaderboard.png"
+  ],
+  "4f7e621a3e20fe29d4a0d7149a9d64643e1911fc": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\12leaderboard.png"
+  ],
+  "124ef917df39fedcfca93b5f32f3ca5acf5876fd": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\13leaderboard.png"
+  ],
+  "743fb270c8f58a91a876843e446c4bbd90c1aaa7": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\14leaderboard.png"
+  ],
+  "a38f74060a8f928264124a93fce3cdb19c821cbd": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\15leaderboard.png"
+  ],
+  "f559caf8c4a74764674d5aabaa95d83d740c2ed5": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\16leaderboard.png"
+  ],
+  "2cfbcc30df55bfd85a4150db6246bf10bbf1c15b": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-windows-store-dotnet-leaderboard\\17leaderboard.png"
+  ],
+  "557a22220752322ab6d4f4f5479a711861fd6178": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-windows-store-dotnet-push-notifications-app-users.md"
+  ],
+  "83e260cf22e98a0ae9e4774c4eb71370f0344f45": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-windows-universal-dotnet-get-started-data.md"
+  ],
+  "f55141f57d4ef41f8daf832caf8e77a73d0cf2bd": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-windows-universal-dotnet-get-started-push.md"
+  ],
+  "732bf152d2b505735d598b934e039a1a3d379962": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-windows-universal-dotnet-get-started-users.md"
+  ],
+  "fe2e09369f77c6390e15f925420f4877fb2bf5db": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-windows-universal-dotnet-upload-data-blob-storage.md"
+  ],
+  "5884a9aab3828da17854a54e6a1a191b32abb61c": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-xamarin-android-get-started-push.md"
+  ],
+  "5c89673308779080811c024930c19d7ffea39d30": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-xamarin-android-get-started-users.md"
+  ],
+  "72ef9dbee6f523f6577258f5b6d3e3c304490908": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-xamarin-android-get-started.md"
+  ],
+  "40e5a795c09e830789481ca80cc2daff2cea4d3f": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-android-get-started\\mobile-portal-quickstart-xamarin.png",
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-ios-get-started\\mobile-portal-quickstart-xamarin-ios.png"
+  ],
+  "5d1fddc544cdab1c4496c84230d2759d36df1744": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-android-get-started\\mobile-quickstart-steps-xamarin-android.png"
+  ],
+  "d92a46dfeef1df8515d26d61c6d6db57189367b9": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-android-get-started\\mobile-quickstart-startup-android.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-android-get-started\\mobile-quickstart-startup-android.png"
+  ],
+  "63d2cf9586e40b1770378c675cbe4cd0187a157c": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-xamarin-ios-get-started-push.md"
+  ],
+  "e3eeea0d8c9710b4da3cc415e55f8908e5b775b3": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-xamarin-ios-get-started-users.md"
+  ],
+  "f44880259d5f19680877f1dabbbb36bfd20d617e": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-backend-xamarin-ios-get-started.md"
+  ],
+  "bc6e2c88820a312fbcbda80215b61299989b1d34": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-ios-get-started\\mobile-quickstart-completed-ios.png"
+  ],
+  "326d2ba41850f8413cd9b95261d0f84ead8c8f2a": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-ios-get-started\\mobile-quickstart-steps-xamarin-ios.png"
+  ],
+  "85a2ecea15de979819bc060f5bb8d7ae8d2d82c3": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-ios-get-started\\mobile-xamarin-project-ios-vs.png"
+  ],
+  "9c1d3b57c0c3e97f4d528e860498beb016646a48": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-ios-get-started\\mobile-xamarin-project-ios-xs.png"
+  ],
+  "2811d853984892698dba02d246c25288c6d0706e": [
+    "virtualization\\mobile-services\\media\\mobile-services-dotnet-backend-xamarin-ios-get-started\\mobile-quickstart-startup-ios.png"
+  ],
+  "98a60edeb254d407dd27da95a63c4786cd99c54d": [
+    "virtualization\\mobile-services\\mobile-services-dotnet-how-to-use-client-library.md"
+  ],
+  "01747bf859daeb2367d1e40c3738c75a351084de": [
+    "virtualization\\mobile-services\\mobile-services-how-to-register-active-directory-authentication.md"
+  ],
+  "7fe3908d2d9051b00564713e24fb01eaa7683624": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-active-directory-authentication\\mobile-services-copy-app-url-waad-auth.png"
+  ],
+  "8387f5aeec3e84e27b73cc12448c6c100372bda7": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-active-directory-authentication\\mobile-services-add-app-wizard-1-waad-auth.png"
+  ],
+  "65210b44822f8e4b5807ad4c43f10cab2f15aaef": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-active-directory-authentication\\mobile-services-add-app-wizard-2-waad-auth.png"
+  ],
+  "1e14b9a5fb0b2d3ff7d1a4a9d7c341715fc7cd6a": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-active-directory-authentication\\mobile-services-clientid-pasted-waad-auth.png"
+  ],
+  "66f957cb3f8841ed83d098f06ca2d74f082cbf1d": [
+    "virtualization\\mobile-services\\mobile-services-how-to-register-facebook-authentication.md"
+  ],
+  "e7660a05517a729d2551211a7fe7a927e0ca957a": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-facebook-authentication\\mobile-services-facebook-configure-app.png"
+  ],
+  "065a74b0eefcfce2adb96fef71e3868826ea4e12": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-facebook-authentication\\mobile-services-facebook-completed.png"
+  ],
+  "916b83023ad061a8fab570fca7cda431ffa3fb51": [
+    "virtualization\\mobile-services\\mobile-services-how-to-register-google-authentication.md"
+  ],
+  "972f96ccfae6e2314be99a308e1a4485f6803ecc": [
+    "virtualization\\mobile-services\\mobile-services-how-to-register-microsoft-authentication.md"
+  ],
+  "b7b6f0581ed2bdf4502943fa325ea92ac84ae419": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-microsoft-authentication\\mobile-services-store-association.png"
+  ],
+  "bfebaab99683d9b0031ba788f2c507b724d208ee": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-microsoft-authentication\\mobile-services-win8-app-push-auth-2.png"
+  ],
+  "9c325a1423a0e39fec3963bc9d4d1cd4be040fe1": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-microsoft-authentication\\mobile-services-win8-app-push-auth.png"
+  ],
+  "2fe9549eca6367ff2f847101ae2764ff91d44d3d": [
+    "virtualization\\mobile-services\\mobile-services-how-to-register-twitter-authentication.md"
+  ],
+  "e33c02d4ef35406a3e6e86dfbbef8de31fc09832": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-register-twitter-authentication\\mobile-services-twitter-register-app1.png"
+  ],
+  "004d54f49103dc48d8deca20d7cb4ea3a4b88370": [
+    "virtualization\\mobile-services\\mobile-services-how-to-use-multiple-clients-single-service.md"
+  ],
+  "5a4990786fcc5fa1a56a1ded52f5d8ffc89d2c8a": [
+    "virtualization\\mobile-services\\mobile-services-how-to-use-server-scripts.md"
+  ],
+  "f581f7ea48cbf7bc5636d88e01fc7d17879a80b4": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-use-server-scripts\\1-mobile-insert-script-users.png",
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\mobile-insert-script-users.png"
+  ],
+  "2eeeb5fe7d6ed5af44788cbcc86f404affeb9fe9": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-use-server-scripts\\2-mobile-custom-api-script.png"
+  ],
+  "e72791045f87457f74edf2acf39c10d9fe5c9c6d": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-use-server-scripts\\3-mobile-schedule-job-script.png"
+  ],
+  "e0101c53d1c5634bb75dde428a636240ff800c26": [
+    "virtualization\\mobile-services\\media\\mobile-services-how-to-use-server-scripts\\4-mobile-source-local-cli.png"
+  ],
+  "a1c87bdac1a6906389374f4525a98b323ed2f3e2": [
+    "virtualization\\mobile-services\\mobile-services-html-get-started-users.md"
+  ],
+  "e5b7a52bb487ae24d43f228bfb5764b34a96b070": [
+    "virtualization\\mobile-services\\mobile-services-html-get-started.md"
+  ],
+  "07a5c5b66342320cdd811c940cb5957b98c913e1": [
+    "virtualization\\mobile-services\\media\\mobile-services-html-get-started\\mobile-quickstart-completed-html.png"
+  ],
+  "52a2cc63b83d3cbb8728fe193467a4cbc1044786": [
+    "virtualization\\mobile-services\\media\\mobile-services-html-get-started\\mobile-portal-quickstart-html.png",
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\mobile-portal-quickstart-html.png"
+  ],
+  "b6c44ed1b2d8a005b271be46711e4411ef46c582": [
+    "virtualization\\mobile-services\\media\\mobile-services-html-get-started\\mobile-quickstart-steps-html.png",
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\mobile-quickstart-steps-html.png"
+  ],
+  "3541a8f7593b3590d0a3a6ee0b83aaeed17ec6ca": [
+    "virtualization\\mobile-services\\media\\mobile-services-html-get-started\\mobile-services-set-cors-localhost.png",
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\mobile-services-set-cors-localhost.png"
+  ],
+  "e3094b33bfc88fd201e3b9b4ed69c2d46c1013e8": [
+    "virtualization\\mobile-services\\media\\mobile-services-html-get-started\\mobile-quickstart-startup-html.png"
+  ],
+  "504ed79d69e6c9c49f6058e9a4fba31f2376e00f": [
+    "virtualization\\mobile-services\\media\\mobile-services-html-get-started\\mobile-data-tab.png",
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-phonegap-get-started\\mobile-data-tab.png",
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\mobile-data-tab.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-android-get-started\\mobile-data-tab.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started\\mobile-data-tab.png"
+  ],
+  "ba2ce4d4c703a6f8a106f05f60c6a0deed00655b": [
+    "virtualization\\mobile-services\\media\\mobile-services-html-get-started\\mobile-data-browse.png",
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-phonegap-get-started\\mobile-data-browse.png",
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\mobile-data-browse.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-android-get-started\\mobile-data-browse.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started\\mobile-data-browse.png"
+  ],
+  "d84c8623139cb4ba96ddd72c77f7be9153a868a2": [
+    "virtualization\\mobile-services\\mobile-services-html-how-to-use-client-library.md"
+  ],
+  "e54c103cba9396c1b84fedcbebfdbf86082a82b0": [
+    "virtualization\\mobile-services\\mobile-services-ios-get-started-offline-data.md"
+  ],
+  "44618dbb9abe46bfb0bf0dcf872193aad3c95c52": [
+    "virtualization\\mobile-services\\mobile-services-ios-get-started-users.md"
+  ],
+  "baac2fb23674a21fdc757bfbdff719aaa4a2516d": [
+    "virtualization\\mobile-services\\mobile-services-ios-get-started.md"
+  ],
+  "758a3b06b7cd1fd6b22225540da90131245ed450": [
+    "virtualization\\mobile-services\\mobile-services-ios-handling-conflicts-offline-data.md"
+  ],
+  "c64d58a85626be6895ddd09b4359d14a3e642bb9": [
+    "virtualization\\mobile-services\\media\\mobile-services-ios-handling-conflicts-offline-data\\conflict-ui.png"
+  ],
+  "53907b7541ee0e0485297d8b57541ec5552b883a": [
+    "virtualization\\mobile-services\\mobile-services-ios-how-to-use-client-library.md"
+  ],
+  "176cf9e0d9b68b697316d17aaca197c2272fe0c3": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-android-get-started-push.md"
+  ],
+  "45eb10b87aa2e9d9fdc0426e090f0cc83a9d3933": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-android-get-started-push\\mobile-services-android-virtual-device-manager.png"
+  ],
+  "c5dde9e5c99d4c0a8b307b3619d1580a1cf2b98a": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-android-get-started-push\\mobile-services-android-virtual-device-manager-edit.png"
+  ],
+  "c721d10e4497bccece9a3dcb8f3b9a028c9b74a5": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-android-get-started-push\\mobile-quickstart-push1-android.png"
+  ],
+  "f825b4162ab4a698667e879ab025b832f1d980a4": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-define-custom-api.md"
+  ],
+  "9b4ae0324dd49f8e41014cdc372f94a5162bff5a": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-ios-get-started-push.md"
+  ],
+  "b3ef00e342a881ca180d9da3e461551f82b1dfa4": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-ios-push-notifications-app-users.md"
+  ],
+  "96c8c197c6f35df5d4cbbb58457688fc1638a3bb": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-phonegap-get-started.md"
+  ],
+  "ff5a5781a8c15489b1f53564888db72d2bbf31b8": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-phonegap-get-started\\mobile-portal-quickstart-ios.png"
+  ],
+  "f9b3acc20f41f797ecc4245f1baff9dcf251ad3f": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-phonegap-get-started\\portal-screenshot1.png"
+  ],
+  "07e5c128ec753661d005d1510edb514347f9969d": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-phonegap-get-started\\portal-screenshot2.png"
+  ],
+  "f717a0a06fba012bf1b889986f53e086fd321273": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-phonegap-get-started\\mobile-portal-quickstart-wp8.png"
+  ],
+  "b7e1f01a0a697788012557c9e681720a64c48b76": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-phonegap-get-started\\mobile-portal-quickstart-android.png"
+  ],
+  "261bea3a3b77c4f9da496a4c707bad3f1b984fe7": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-service-side-authorization.md"
+  ],
+  "e9d979f5a59a462d9ba30ebe35aff52be76893e8": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-windows-phone-get-started-push.md"
+  ],
+  "38d730e14cabbdd11b37ee81b5f2e182148a5642": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-windows-phone-get-started-push\\mobile-app-enable-push-wp8.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-app-enable-push-wp8.png"
+  ],
+  "21527eb93887049aec390df9f44cde51ca9ca5e7": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-windows-phone-get-started-push\\mobile-quickstart-push3-wp8.png"
+  ],
+  "770cae0888ae45ccfe0d0f44e72d55cbd6b392fb": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-windows-phone-get-started-push\\mobile-quickstart-push5-wp8.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-quickstart-push5-wp8.png"
+  ],
+  "c38dc031781677b6b4c2ff2e6cb089596dcf4c3b": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-windows-store-dotnet-get-started.md"
+  ],
+  "219303f5f9b24b93122bb6b836dd9803b9fdebe2": [
+    "virtualization\\mobile-services\\media\\mobile-services-javascript-backend-windows-store-dotnet-get-started\\mobile-quickstart-steps.png"
+  ],
+  "0567db96228a63092a9d2033b3eec98230004034": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-windows-store-dotnet-push-notifications-app-users.md"
+  ],
+  "336609dd44e46d0d57c048dbf244e684d8202740": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-windows-store-javascript-get-started.md"
+  ],
+  "d62f94bfaebc2f696402271dfcbc5b3529d5574c": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-windows-universal-dotnet-get-started-push.md"
+  ],
+  "6cc9a21f53a2c5fcde51438c28a6a1246e855940": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-windows-universal-dotnet-get-started-users.md"
+  ],
+  "5f3072959861b773350262782b7777e5056a4ae4": [
+    "virtualization\\mobile-services\\mobile-services-javascript-backend-windows-universal-dotnet-upload-data-blob-storage.md"
+  ],
+  "08a23ac6576e2981f2e0c2dffd007c62445d12fb": [
+    "virtualization\\mobile-services\\mobile-services-manage-command-line-interface.md"
+  ],
+  "d7bdbf827cb57f0897d3330a4ca05962f3c5ba26": [
+    "virtualization\\mobile-services\\mobile-services-schedule-recurring-tasks.md"
+  ],
+  "8221cc4b5b1c5bbcd78bebda06d13ea8c55d642e": [
+    "virtualization\\mobile-services\\mobile-services-sql-scale-guidance.md"
+  ],
+  "4cf7793ac018cc783b6d9e5af511ba265af2149b": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\3.png"
+  ],
+  "82dca49279481d553dcaf5e003b3c3bbc95af12c": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\4.png"
+  ],
+  "72be259c1efc1c60ad0f3788af880f38e6e1b527": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\5.png"
+  ],
+  "d721fcb37bfc089dad34b961038179b00f614c60": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\6.png"
+  ],
+  "caeaf782041985c12d701767874529b41ee595d4": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\7.png"
+  ],
+  "d55e07e079dcf88bc36eef5e6d625070df920886": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\set-index-portal-ui.png"
+  ],
+  "ba964acf9471debc2489ef9e3d217195852287bc": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\1.png"
+  ],
+  "cef8c793465ace053d149e0d4a38269b62a296fa": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\2.png"
+  ],
+  "e86f7584ba9770e1cf5a7bcaa35c444b57fe6afa": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\8.png"
+  ],
+  "a7c745023c20b0d13ebb9f6c5d1ff76dba2d120b": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\9.png"
+  ],
+  "62165e2355d34d5e46694e6be1ba1b4e87e4a029": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\10.png"
+  ],
+  "e165a64826b72b2ee3aed8bdd09f53d310b8d0cd": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\11.png"
+  ],
+  "9f762ae4420a2033b64cfb29873fe507c4498585": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\12.png"
+  ],
+  "daed47dfc16866b7427f480dea16da8372b890ab": [
+    "virtualization\\mobile-services\\media\\mobile-services-sql-scale-guidance\\13.png"
+  ],
+  "aa5c9a86caf0c0c51ddeab2a6ed596f3c8d2a0d0": [
+    "virtualization\\mobile-services\\mobile-services-store-scripts-source-control.md"
+  ],
+  "389b6696a6df5db0f99a2d923a5d4bb17ba4e3e8": [
+    "virtualization\\mobile-services\\media\\mobile-services-store-scripts-source-control\\mobile-source-local-repo.png"
+  ],
+  "312d50cfce8ae4ee2b1826215e5de951658f078e": [
+    "virtualization\\mobile-services\\mobile-services-using-soft-delete.md"
+  ],
+  "88e3a583ee3517f371732dfa575624d989a76822": [
+    "virtualization\\mobile-services\\media\\mobile-services-using-soft-delete\\enable-soft-delete-new-table.png"
+  ],
+  "82ea994e6b652c85c406357d9aacc72d7884065a": [
+    "virtualization\\mobile-services\\media\\mobile-services-using-soft-delete\\enable-soft-delete-button.png"
+  ],
+  "d41b76a8007652eba9c26b6ba1f6bc26aed14432": [
+    "virtualization\\mobile-services\\media\\mobile-services-using-soft-delete\\disable-soft-delete.png"
+  ],
+  "a1b411ae926a2b3db4093af5dde6c98441cdf75b": [
+    "virtualization\\mobile-services\\mobile-services-windows-phone-get-started-data.md"
+  ],
+  "53aafe5230a63f2711df1f7609724a7b3a54b744": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-phone-get-started-data\\mobile-quickstart-startup-wp8.png"
+  ],
+  "a8d000e8017b0dcd40b35ceda3b9574d726af876": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-phone-get-started-data\\mobile-add-nuget-package-wp.png"
+  ],
+  "54f4e25e2ba5bb89e77b34d2287962a5103c3590": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-phone-get-started-data\\mobile-dashboard-tab.png"
+  ],
+  "e973e87b6fe899f1b1cb70532d85ae8e74ffbd16": [
+    "virtualization\\mobile-services\\mobile-services-windows-phone-get-started-users.md"
+  ],
+  "eca019886f12a0a9c85ea6875238dcdc56dbeea3": [
+    "virtualization\\mobile-services\\mobile-services-windows-store-dotnet-adal-sso-authentication.md"
+  ],
+  "dcdc543d8155c12c720f4ff3233524fd7001268b": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-vs-associate-app.png"
+  ],
+  "df051a24e43cb82a105bf69b9805a5f9e334c3ee": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-vs-reserve-store-appname.png"
+  ],
+  "8cda6469666737a81f15230e29a5362c58254106": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-store-app-edit.png"
+  ],
+  "77dd2100522f92391b9c29ef7d71e625e3b264e2": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-store-app-services.png"
+  ],
+  "ff21b8a9c79066bbbebedd9f6ef272b50800cf57": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-select-aad.png"
+  ],
+  "8ede9ad82914edc71b99abad5fe13db168a224be": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-aad-applications-tab.png"
+  ],
+  "f35b639ba54aa854122cff459129538cf1729e4c": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-native-selection.png"
+  ],
+  "7ad1c3cbe443531c77963a7cbf704ef3204ba9eb": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-native-sid-redirect-uri.png"
+  ],
+  "9d4fbabc939639a275f218d4f008246ce30bce0e": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-native-client-id.png"
+  ],
+  "b2a0c48fee3ff55fc6c10db0834a10028cef5a7c": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-native-add-permissions.png"
+  ],
+  "953539e26125da6242a3c231b6be5e1500f35666": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-package-appxmanifest.png"
+  ],
+  "9274ed13faa9ef3d241baacbfa5f3913ffb4b4d6": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-adal-sso-authentication\\mobile-services-app-run.png"
+  ],
+  "2290a1ab09ef98f1be6ad555348cc0ee68f746e2": [
+    "virtualization\\mobile-services\\mobile-services-windows-store-dotnet-get-started-offline-data.md"
+  ],
+  "d4148f4101688dd15f5bdf67a33890e332d15b3e": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-get-started-offline-data\\mobile-services-sqlitestore-nuget.png"
+  ],
+  "74eea4375cad6edbec4e3645e354acac53ebfe6d": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-get-started-offline-data\\mobile-services-add-reference-sqlite-dialog.png"
+  ],
+  "e795a9bcfb1798bc1126b489bfeb371dd4210e85": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-get-started-offline-data\\mobile-services-add-wp81-reference-sqlite-dialog.png"
+  ],
+  "d421e0ef72c710f2ea22d7136c255d6c1f428b55": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-get-started-offline-data\\cpu-architecture.png"
+  ],
+  "88b55abaae0c79b9bb4136e932481f7e528d25d2": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-get-started-offline-data\\mobile-data-browse.png"
+  ],
+  "d645262b85b379b066802599d04aa77e213c367d": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-get-started-offline-data\\mobile-data-browse2.png"
+  ],
+  "dc237f548dd1ddd7cd11cdee4ef9bcb2032fb9dd": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-get-started-offline-data\\mobile-services-online-app-run2.png"
+  ],
+  "77c92eca6bc352484cd2ecf30e69a93c97b66636": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-get-started-offline-data\\mobile-data-browse3.png"
+  ],
+  "0cadbd89aaa883256206c4892b05d9a8f9fd34b2": [
+    "virtualization\\mobile-services\\mobile-services-windows-store-dotnet-handle-database-conflicts.md"
+  ],
+  "3d29b43da98bb7b0bff535d3f5c5afba40275c73": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\mobile-manage-nuget-packages-VS.png"
+  ],
+  "60228c3492b9d6dabdff944d70016882c7f5c41f": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\mobile-manage-nuget-packages-dialog.png"
+  ],
+  "35cc92201e177923f7363eea73fc2a262929f97a": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-create-app-package1.png"
+  ],
+  "44a7609e29625b6d91ed85ce903fededda7e8ee5": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-create-app-package2.png"
+  ],
+  "966b52b07a0a991646f46f90ff6d0f755db00a6e": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-create-app-package3.png"
+  ],
+  "f3fb76ad65bad2e51c8e0d53e69f203e0b797dc6": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-create-app-package4.png"
+  ],
+  "774a107d6091422b933aded1f9fbc650fa7819fe": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-install-app-package.png"
+  ],
+  "282deda1ff7b5986e88451f51dcaf8a394c615e6": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-app1.png"
+  ],
+  "eb099ff957f9eb6672ac911a0a0f3ab7bfda7ab8": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-app1-write1.png"
+  ],
+  "bb2fd357bc51f9031d6fb91663d2a703e000d6cc": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-app1-write2.png"
+  ],
+  "ee008c86ed3cbe2c89d2bd255d846849bc232815": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-app2-write2.png"
+  ],
+  "701ef77cdf631d3f158a1efee48cfed4fc18dd4b": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-app2-write2-conflict.png"
+  ],
+  "9ff37c4e708f100e7815dd3b94e755a5c34db27e": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\mobile-services-selection.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-selection.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-selection.png"
+  ],
+  "52cfc0b747f3d8357758370a33d9d9e4f7892285": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\mobile-portal-data-tables.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-portal-data-tables.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-portal-data-tables.png"
+  ],
+  "da43241ba06fe88126c57446b6dac4b856cc1b24": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-app1-write3.png"
+  ],
+  "8cdf54f348372db9c3de87d9cd046f5c4c744a2c": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-app2-write3.png"
+  ],
+  "fb31d17c349a749f24b9e5e8c6aa99ebab96aef9": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-write3.png"
+  ],
+  "2fbd3c7267ce1f059cf7e6efcfdf7dab339b9537": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-checkbox.png"
+  ],
+  "be503c33c8fcad5adb5f3ab7f71377948b27f2bf": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-2-items.png"
+  ],
+  "e0980973ae1f712078d0407e4870864dc90a1f00": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handle-database-conflicts\\Mobile-oc-store-already-complete.png"
+  ],
+  "97bd4872b9dba42e30647af62a64c695f9832398": [
+    "virtualization\\mobile-services\\mobile-services-windows-store-dotnet-handling-conflicts-offline-data.md"
+  ],
+  "2b5f60a2699ba918b6600e14c7e97897f43c7c40": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handling-conflicts-offline-data\\mobile-services-handling-conflicts-app-run1.png"
+  ],
+  "86ddf7283d2317e4478dbf33d704b3a0a6d4b7b0": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handling-conflicts-offline-data\\wp81-view.png"
+  ],
+  "bf6f1dce2e98fd39fbfeabff9f7fbd559df7d96d": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handling-conflicts-offline-data\\win81-view.png"
+  ],
+  "008b3a3c6cf4c52bf6bf5d2954e5e0df4a4a997d": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handling-conflicts-offline-data\\wp81-edit-text.png"
+  ],
+  "61797a72e96f51c5d26f5d63cf6a3548f8d61bce": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handling-conflicts-offline-data\\win81-edit-text.png"
+  ],
+  "dfa2cd25377fbdbe353350c2bf2e1d9391a8aba8": [
+    "virtualization\\mobile-services\\media\\mobile-services-windows-store-dotnet-handling-conflicts-offline-data\\conflict.png"
+  ],
+  "6f311fff98416574c9823615190a3f36ba86d2e3": [
+    "virtualization\\mobile-services\\mobile-services-xamarin-android-get-started-offline-data.md"
+  ],
+  "09821c70486f6c91c15acb2c497c21c5f8661edd": [
+    "virtualization\\mobile-services\\mobile-services-xamarin-ios-get-started-offline-data.md"
+  ],
+  "ac172bd773544dea94a79f5333ef4a1309c548a8": [
+    "virtualization\\mobile-services\\partner-sencha-mobile-services-get-started.md"
+  ],
+  "b6ec66ae17b385d9230c944499adf55293479493": [
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\finished-app.png"
+  ],
+  "fa3d344c5a58f7133a56b4aac88251cac0324b23": [
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\mobile-app-key-portal.png"
+  ],
+  "42b8f47057805a82076f0190153b00091bb836e2": [
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\sencha-web-start.png"
+  ],
+  "f4ea180ec7e1d715e59bc9c3ebf3c638bcd407f4": [
+    "virtualization\\mobile-services\\media\\partner-sencha-mobile-services-get-started\\new-todo-item.png"
+  ],
+  "7e1db8465d169c83c8dfca9c667923c059e25b1b": [
+    "virtualization\\mobile-services\\partner-xamarin-mobile-services-android-get-started-push.md"
+  ],
+  "813a963ca41bc5ffc8b890da7cebaa2a86f68ba1": [
+    "virtualization\\mobile-services\\partner-xamarin-mobile-services-android-get-started-users.md"
+  ],
+  "6f4d95bc52775c54cd793bf20b20217da223ebf2": [
+    "virtualization\\mobile-services\\partner-xamarin-mobile-services-android-get-started.md"
+  ],
+  "61625739b6048cd7613844ed05e9a46786598329": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-android-get-started\\mobile-portal-quickstart-xamarin-android.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started\\mobile-portal-quickstart-xamarin-ios.png"
+  ],
+  "92930ae79a7707f157ce8a17a809255a5a51b905": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-android-get-started\\mobile-quickstart-steps-xamarin-android.png"
+  ],
+  "719dbf7bc1b4dddf38ddc31617d351238d0c704d": [
+    "virtualization\\mobile-services\\partner-xamarin-mobile-services-ios-get-started-push.md"
+  ],
+  "d4a2a505fcd6b4c49b45f331c54edc9b38a18cfc": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-step5.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-step5.png"
+  ],
+  "b288fecbf89f6c4810793bca4a4a0dbde03e1fa3": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-step6.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-step6.png"
+  ],
+  "3c85c9764989bfdac2ecc993e429888c39a80726": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-step7.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-step7.png"
+  ],
+  "4a644d02dd842df0c43331c67e23cd2076648816": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-02.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-02.png"
+  ],
+  "ed2dc8811a5131b9b5bc9cbd7161cf122c9189ad": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-03.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-03.png"
+  ],
+  "1ae4f53bce2b53aa09de5eea6a2ed44a6bb5cb76": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-04.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-04.png"
+  ],
+  "3ed9b27941ffb8a835816ed0d305a2ae281b4a1e": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-05.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-05.png"
+  ],
+  "6e26c06443fcc927249d445179fc0f3578975e36": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-06.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-06.png"
+  ],
+  "08f934b70cd5e0a8ffcef541aa1cb78d4c989b49": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-07.png"
+  ],
+  "be4ab8382f88b93e1c2394bb4609654626c2c252": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-08.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-08.png"
+  ],
+  "c3ca5f3babbe923e0e810e250ace3e619b77076e": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-10.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-10.png"
+  ],
+  "399fe0519a7495ca5ad1a3b894a4d9cf54a9a753": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-11.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-11.png"
+  ],
+  "b63fdb203d7348b03f5bc31290623ec46c81223f": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-step9.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-step9.png"
+  ],
+  "18959efa40a234f709b51abe1608e291d5a376e1": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-step10.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-step10.png"
+  ],
+  "e6eba6f63360dfbc1b64097d63f11d3b729f7e26": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-12.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-12.png"
+  ],
+  "76a355cfd86c55e3076b95a20f936badbc8ea694": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-13.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-13.png"
+  ],
+  "df8a3831855a5e8261dd4244a76fb61494dccf24": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-14.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-14.png"
+  ],
+  "20dbc1aa49f7e6c81481633106446a4677e4e40b": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-15.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-15.png"
+  ],
+  "5fed1cdce184ae1b2b2bf56e82e163561599be60": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-16.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-16.png"
+  ],
+  "36971b1b5f89c3847dd9fc1ff31d8c2829acb094": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-17.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-17.png"
+  ],
+  "0f4b7fb8316b8edd975f79e1dc05e9681f3fd076": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-step18.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-step18.png"
+  ],
+  "407d1b89b0abf2470d0accc5e04a198f52cfc68c": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-push-tab-ios.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-push-tab-ios.png"
+  ],
+  "9d7fab98eeeb0080fefea6ec98bd6e6c9c198d10": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-push-tab-ios-upload.png"
+  ],
+  "c0dba2906f0eadb96e5e8146099b7eea3d1b832a": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-21.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-21.png"
+  ],
+  "b715af53830200557c1e406e4857e21c3352bc7c": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-22.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-22.png"
+  ],
+  "6c2408536d1b1781c3cbe946d93fd8c9faf264cf": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-services-ios-push-20.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-20.png"
+  ],
+  "9101487bb72d6f4bbd6d55253509e4d3bf4142b8": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-insert-script-push2.png",
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-insert-script-push2.png",
+    "virtualization\\mobile-services\\media\\store-sendgrid-mobile-services-send-email-scripts\\mobile-insert-script-push2.png"
+  ],
+  "563c8e576f56d2b3443696f8e0a9d46bc02ea92f": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-quickstart-push1-ios.png"
+  ],
+  "506548d702c900f6116c77e162bc9fd9680091d6": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-quickstart-push2-ios.png"
+  ],
+  "126d82cefa4e8cc65b7018da1d23bbd0f4a2f37f": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-quickstart-push3-ios.png"
+  ],
+  "4b462ab2d94a2351706e7024af957bd9cc760e6b": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started-push\\mobile-quickstart-push4-ios.png"
+  ],
+  "e8068836865e7850a4cec824b204a268748a2acb": [
+    "virtualization\\mobile-services\\partner-xamarin-mobile-services-ios-get-started-users.md"
+  ],
+  "a9ddacd2433a5f7b274dfb20923c47dcb0763b5c": [
+    "virtualization\\mobile-services\\partner-xamarin-mobile-services-ios-get-started.md"
+  ],
+  "ff211fbba96785122e26e95ef614cbe477c905a1": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started\\mobile-quickstart-completed-ios.png"
+  ],
+  "88b02c95b91bcc5cf3372c0cd63488eb5a85701b": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started\\mobile-quickstart-steps-xamarin-ios.png"
+  ],
+  "55f4a3de2deb8ef5ef80bfcb07a4911f94a6b263": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started\\mobile-xamarin-project-ios-xs.png"
+  ],
+  "995896922261c9e9338292c072cc42f079b65e87": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started\\mobile-xamarin-project-ios-vs.png"
+  ],
+  "10560b4a8d1a7e14b823c57fc23b00c37435d054": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-ios-get-started\\mobile-quickstart-startup-ios.png"
+  ],
+  "95da5eeeb7afae81ef61299fd84a1ba74e087741": [
+    "virtualization\\mobile-services\\partner-xamarin-mobile-services-xamarin-forms-get-started-push.md"
+  ],
+  "bb569207a4a30a6d59c92244a967d42656df27f8": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-data-tab-empty.png"
+  ],
+  "5d1f168b57b842d3e48bfc3cb0eaf506710f8afc": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-create-todoitem-table.png"
+  ],
+  "5ce01430886c6394a801ed8b62ac9b044559d6a0": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-services-ios-push-07.png"
+  ],
+  "2be8715c710e1b4b322c731069d2d555aae0b1da": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\mobile-push-tab-ios-upload.png"
+  ],
+  "0e92f99bce27b015ab123de7891e4ebe38d17d6f": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\notification-hub-create-android-app7.png"
+  ],
+  "41a1355d1d23545cc69feb0d1afe4430e41ac407": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\notification-hub-create-android-app8.png"
+  ],
+  "5c7614c176422de75876ccb7d806ed74cfe1d041": [
+    "virtualization\\mobile-services\\media\\partner-xamarin-mobile-services-xamarin-forms-get-started-push\\notification-area-received.png"
+  ],
+  "de5c32c573502e39e6df8b5dc1a73ebfd535b9eb": [
+    "virtualization\\mobile-services\\store-sendgrid-mobile-services-send-email-scripts.md"
+  ],
+  "17909d5f0579b25a35767bab0ee870ec736f9e97": [
+    "virtualization\\mobile-services\\media\\store-sendgrid-mobile-services-send-email-scripts\\mobile-portal-data-tables.png"
+  ],
+  "6ca98cf21f69f00049f8e424528621baf8d1617a": [
+    "virtualization\\mobile-services\\media\\store-sendgrid-mobile-services-send-email-scripts\\mobile-quickstart-push1.png"
+  ],
+  "c52939fdffca3471079fa13ab4b0479f814a8730": [
+    "virtualization\\mobile-services\\media\\store-sendgrid-mobile-services-send-email-scripts\\mobile-receive-email.png"
+  ],
+  "ffb6ebe16f10a5e47a4243349d3f23a028611358": [
+    "virtualization\\mobile-services\\vs-mobile-services-cordova-getting-started.md"
+  ],
+  "4933d5067377b218effe4f2b0ef025d7ad1dde0d": [
+    "virtualization\\mobile-services\\vs-mobile-services-cordova-what-happened.md"
+  ],
+  "3b54a3cff7b0c6eb8cbe5b9b43a7c5f143253bdb": [
+    "virtualization\\mobile-services\\vs-mobile-services-dotnet-getting-started.md"
+  ],
+  "c8a93fb6964fb88893ec20bdf94dd40c892b7409": [
+    "virtualization\\mobile-services\\vs-mobile-services-dotnet-what-happened.md"
+  ],
+  "23b2bfa68b815679a90802763fe029cfc075813d": [
+    "virtualization\\mobile-services\\vs-mobile-services-javascript-getting-started.md"
+  ],
+  "b950e9dda6fc8e0c19b71f339a542893484c0e6b": [
+    "virtualization\\mobile-services\\vs-mobile-services-javascript-what-happened.md"
   ]
 }
