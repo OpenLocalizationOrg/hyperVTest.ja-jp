@@ -334,6 +334,9 @@
   "3147764c0d5fe0b34baf8caa7c87d2034eb543ef": [
     "virtualization\\hyperv_on_windows\\develop\\make_mgmt_service_test.md"
   ],
+  "1c3a7999ade59fa3a66011fa9511bf07585cf13a": [
+    "virtualization\\hyperv_on_windows\\about\\powershell_snippets_new.md"
+  ],
   "dbafa1d6e63dbfd904402ffa16033bd0fe63005e": [
     "virtualization\\hyperv_on_windows\\about\\powershell_snippets_new.md"
   ]
