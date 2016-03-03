@@ -6,14 +6,14 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\hyperv_on_windows\develop\make_mgmt_service_test.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/ba05c6e4143e082c51e4a91c72e78cf2052935ec/virtualization/hyperv_on_windows/develop/make_mgmt_service_test.md) | OutofSyncHandedBackSuccess | [Details](#e437baf1f27bb8d500d2db065f8284cc065e26a6103)
+ [virtualization\hyperv_on_windows\develop\make_mgmt_service_test.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/44f886ded1508add732e1f27bdeacda43df35c5c/virtualization/hyperv_on_windows/develop/make_mgmt_service_test.md) | OutofSyncHandedBackSuccess | [Details](#f1c960042aeca4ef7c858c8b854aa0bf278fac0b103)
 
 ## Item Details
-##### <a name='e437baf1f27bb8d500d2db065f8284cc065e26a6103'></a> Source: [virtualization\hyperv_on_windows\develop\make_mgmt_service_test.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/ba05c6e4143e082c51e4a91c72e78cf2052935ec/virtualization/hyperv_on_windows/develop/make_mgmt_service_test.md)
+##### <a name='f1c960042aeca4ef7c858c8b854aa0bf278fac0b103'></a> Source: [virtualization\hyperv_on_windows\develop\make_mgmt_service_test.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/44f886ded1508add732e1f27bdeacda43df35c5c/virtualization/hyperv_on_windows/develop/make_mgmt_service_test.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [make_mgmt_service_test.60a5f6ea8f560d274fd98affacf2a5f9da3137f1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/f5665a78575e7b398343d1bf822754697c572f09/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/make_mgmt_service_test.60a5f6ea8f560d274fd98affacf2a5f9da3137f1.ja-jp.xlf)
-* Handoff Datetime: 2016-03-02 19:17:12
+* Handoff File: [make_mgmt_service_test.60a5f6ea8f560d274fd98affacf2a5f9da3137f1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/3e1295ead29c94ab4367f6cf8675b565e20dee9c/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/make_mgmt_service_test.60a5f6ea8f560d274fd98affacf2a5f9da3137f1.ja-jp.xlf)
+* Handoff Datetime: 2016-03-03 00:06:47
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
