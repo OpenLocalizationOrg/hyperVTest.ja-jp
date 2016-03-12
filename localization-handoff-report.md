@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [virtualization\hyperv_on_windows\user_guide\SonjaTestFile2.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3f9a78e08329da2bb4349fa83236743e9596847f/virtualization/hyperv_on_windows/user_guide/SonjaTestFile2.md) | HandedOffSuccess | [Details](#842f29e7e423c2ded4f3bef1a178ec7ac61df134196)
 
 ## Item Details
-##### <a name='842f29e7e423c2ded4f3bef1a178ec7ac61df134196'></a> Source: [virtualization\hyperv_on_windows\user_guide\SonjaTestFile2.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3f9a78e08329da2bb4349fa83236743e9596847f/virtualization/hyperv_on_windows/user_guide/SonjaTestFile2.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [SonjaTestFile2.8acb0d4a493fb54a0fbbd61d05df694edac4c886.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/da270e242d070bd3e7b5a69f9980f84751212c2b/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/master/SonjaTestFile2.8acb0d4a493fb54a0fbbd61d05df694edac4c886.ja-jp.xlf)
-* Handoff Datetime: 2016-03-12 01:41:17
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
