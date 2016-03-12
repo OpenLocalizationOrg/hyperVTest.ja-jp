@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "8cdb5ccb015c3c7a505ab1fe9b041854155c1703",
+  "LastProcessedCommit": "3f9a78e08329da2bb4349fa83236743e9596847f",
   "LastTranslatedCommit": "e20e3e37a6e3ecc4aeb748efa398b28960aed916",
   "Items": {
     "426af95d3f431c9a2bc4a8c5735a8109792a7b80": {
@@ -63124,6 +63124,34 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\community_overview.ce517e45719221eec569f55dd38764b6e117cfbb.ja-jp.xlf",
       "HandoffFileCommit": "7c8a89d75f99c63857e583e4e6bf861aa03cf491",
       "HandoffDateTime": "2016-03-11T19:01:42.2563913Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "842f29e7e423c2ded4f3bef1a178ec7ac61df134": {
+      "FileHash": "842f29e7e423c2ded4f3bef1a178ec7ac61df134",
+      "SourceFileCommit": "3f9a78e08329da2bb4349fa83236743e9596847f",
+      "SourceFilePath": "virtualization\\hyperv_on_windows\\user_guide\\SonjaTestFile2.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "virtualization\\hyperv_on_windows\\user_guide\\SonjaTestFile2.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\hyperVTest.ja-jp\\master\\SonjaTestFile2.8acb0d4a493fb54a0fbbd61d05df694edac4c886.ja-jp.xlf",
+      "HandoffFileCommit": "da270e242d070bd3e7b5a69f9980f84751212c2b",
+      "HandoffDateTime": "2016-03-12T01:41:17.9738056Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,

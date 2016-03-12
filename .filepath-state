@@ -363,5 +363,8 @@
   ],
   "dbafa1d6e63dbfd904402ffa16033bd0fe63005e": [
     "virtualization\\hyperv_on_windows\\about\\powershell_snippets_new.md"
+  ],
+  "842f29e7e423c2ded4f3bef1a178ec7ac61df134": [
+    "virtualization\\hyperv_on_windows\\user_guide\\SonjaTestFile2.md"
   ]
 }
