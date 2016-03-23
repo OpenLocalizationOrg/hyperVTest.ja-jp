@@ -1,80 +1,80 @@
-MIM 2016 と Certificate Manager を起動して実行している場合、MIM Certificate Manager Windows ストア アプリケーションをデプロイして、ユーザーが物理スマート カード、仮想スマート カード、およびソフトウェアの証明書を簡単に管理できるようにすることができます。 MIM CM アプリを展開する手順は次のとおりです。
+After you have MIM 2016 and Certificate Manager up and running, you can deploy the MIM Certificate Manager Windows store application so that your users can easily manage their physical smart cards, virtual smart cards and software certificates. The steps to deploy MIM CM  app are as follows:
 
-1.  証明書テンプレートを作成する。
+1.  Create a certificate template.
 
-2.  プロファイル テンプレートを作成する。
+2.  Create a profile template.
 
-3.  アプリを準備する。
+3.  Prepare the app.
 
-4.  SCCM または Intune を使用してアプリを展開する。
+4.  Deploy the app via SCCM or Intune.
 
-## 証明書テンプレートを作成する
-CM アプリに証明書テンプレートを作成します。通常と同じ方法で作成できますが、証明書テンプレートがバージョン 3 以降であることを確認する必要があります。
+## Create a certificate template
+You create a certificate template for the CM  app the same way you ordinarily would, except that you have to make sure that the certificate template is version 3 and up.
 
-1.  AD CS (証明書サーバー) を実行しているサーバーにログインします。
+1.  Log into the server running AD CS (the certificate server).
 
-2.  MMC を開きます。
+2.  Open the MMC.
 
-3.  **[ファイル] &gt; [スナップインの追加と削除]** をクリックします。
+3.  Click **File &gt; Add/Remove Snap-in**.;
 
-4.  [利用できるスナップイン]の一覧で、**[証明書テンプレート]**をクリックして、**[追加]**をクリックします。
+4.  In the Available snap-ins list, click **Certificate Templates** and then click **Add**.
 
-5.  MMC の **[コンソール ルート]** の下に、**[証明書テンプレート]** が表示されます。 ダブル クリックすると、すべての利用可能な証明書テンプレートが表示されます。
+5.  You will now see **Certificate Templates** under **Console Root** in the MMC. Double click it to view all the available certificate templates.
 
-6.  **[スマートカード ログオン]** テンプレートを右クリックして、**[テンプレートの複製]** をクリックします。
+6.  Right-click the **Smartcard Logon** template and click **Duplicate Template**.
 
-7.  [互換性] タブの [証明機関] の下で [Windows Server 2008] を選択し、[証明書の受信者] の下で [Windows 8.1/Windows Server 2012 R2] を選択します。 
-    これは、バージョン 3 (以降) の証明書テンプレートがあることを確認し、Certificate Manager アプリでバージョン 3 のみを確実に使用するために非常に重要な手順です。 バージョンは証明書テンプレートを初めて作成して保存するときに設定されるため、この方法で証明書テンプレートを作成していない場合は、正しいバージョンに変更する方法はなく、続行する前に、新しいテンプレートを作成する必要があります。
+7.  On the Compatibility tab, under Certification Authority select Windows Server 2008 and under Certificate Recipient select Windows 8.1/Windows Server 2012 R2. 
+    This step is crucial because it makes sure that you have a version 3 (or higher) certificate template, and only version 3 works with the certificate manager app. Because the version is set the first time you create and save the certificate template, if you didn’t create the certificate template in this way there is no way to modify it to the correct version and you should create a new one before proceeding.
 
-8.  **[全般]** タブの **[表示名]** フィールドで、アプリの UI に表示する名前 (**仮想スマート カード ログオン**など) を入力します。
+8.  On the **General** tab, in the **Display Name** field, type the name you want to appear in the app's UI, such as **Virtual Smart Card Logon**.
 
-9. **[要求処理]** タブで、**[目的]** を **[署名と暗号化]** に設定し、**[実行する処理…]** の下で **[登録中にユーザーにメッセージを表示する]** を選択します。
+9. On the **Request Handling** tab, set the **Purpose** to **Signature and encryption** and under **Do the following…** select **Prompt the user during enrollment**.
 
-10. **[暗号化]** タブの **[プロバイダーのカテゴリ]** の下で、**[キー記憶域プロバイダーと要求は対象のコンピューターで使用可能な任意のプロバイダーを使用できる]** を選択します。
+10. On the **Cryptography** tab under **Provider Category**, select **Key Storage Provider and Requests can use any provider available on the subject’s computer**.
 
     > [!NOTE]
-    > キー記憶域プロバイダーがオプションとして表示されるのは、テンプレートがバージョン 3 の場合だけです。 表示されない場合は、正しいバージョンで証明書テンプレートが正しく作成されていない可能性があります。 上記の手順 5 を最初から行ってください。
+    > You will only see Key Storage Provider as an option if your template is version 3. If you don’t see it, you probably didn’t create the certificate template correctly with the correct version. Start over with step 5, above.
 
-11. **[セキュリティ]** タブで、**[登録]** アクセス権を付与するセキュリティ グループを追加します。 たとえば、すべてのユーザーにアクセス権を付与する場合は、**[Authenticated users]** グループを選択し、そのグループに **[登録]** アクセス許可を選択します。
+11. On the **Security** tab, add the security group that you want to provide **Enroll** access for. For example, if you want to provide access to all users, select the **Authenticated users** group and then select **Enroll permissions** for them.
 
-12. **[OK]** をクリックして変更を完了し、新しいテンプレートを作成します。 証明書テンプレートの一覧に、新しいテンプレートが表示されます。
+12. Click **OK** to finalize your changes and create the new template. You should be able to see your new template in the list of Certificate Templates.
 
-13. **[ファイル]** を選択し、**[スナップインの追加と削除]** をクリックして、証明機関スナップインを MMC コンソールに追加します。 管理するコンピューターを尋ねられたら、**[ローカル コンピューター]** を選択します。
+13. Select **File** and click **Add/Remove Snap-in** to add the Certification Authority snap-in to your MMC console. When asked which computer you want to manage, select **Local Computer**.
 
-14. MMC の左側のウィンドウで **[証明機関 (ローカル)]** を展開し、証明機関の一覧内に自身の CA を展開します。
+14. In the left pane of the MMC, expand **Certification Authority (Local)** and then expand your CA within the Certification Authority list.
 
-15. **[証明書テンプレート]** を右クリックし、**[新規作成] &gt; [発行する証明書テンプレート]** をクリックします。
+15. Right-click **Certificate Templates**, click **New &gt; Certificate Template** to Issue.
 
-16. 一覧から作成した新しいテンプレートを選択し、**[OK]** をクリックします。
+16. From the list select the new template you created and click **OK**.
 
-## プロファイル テンプレートを作成する
-プロファイル テンプレートを作成する際に、必ずテンプレートを vSC の作成/破棄およびデータ コレクションの削除に設定します。 CM アプリは収集したデータを処理できないため、次の手順で無効にすることが重要です。
+## Create a profile template
+Make sure when you create a profile template to set it to create/destroy the vSC and to remove the data collection. The CM app cannot handle collected data, so it’s important to disable it, as follows.
 
-1.  管理者特権を持つユーザーとして CM ポータルにログインします。
+1.  Log into the CM portal as a user with administrative privileges.
 
-2.  [管理] &gt; [プロファイル テンプレートの管理] を選択し、MIM CM サンプル スマート カードのログオン プロファイル テンプレートの横にあるチェック ボックスをオンにして、選択したプロファイル テンプレートの [コピー] をクリックします。
+2.  Go to Administration &gt; Manage Profile templates and make sure that the box is checked next to MIM CM Sample Smart Card Logon Profile Template and then click on Copy a selected profile template.
 
-3.  プロファイル テンプレートの名前を入力し、**[OK]** をクリックします。
+3.  Type the name of the profile template and click **OK**.
 
-4.  次の画面で、**[新しい証明書テンプレートを追加]** をクリックして、CA 名の横にあるチェック ボックスがオンになっていることを確認します。
+4.  In the next screen, click **Add new certificate template** and make sure to check the box next to the CA name.
 
-5.  プロファイル テンプレート名 **[Logon]** の横にあるチェック ボックスをオンにして、**[追加]** をクリックします。
+5.  Check the box next to the name of the profile template **Logon** and click **Add**.
 
-6.  SmartCardLogon テンプレートを削除するには、テンプレートの横にあるチェック ボックスをオンにしてから、**[選択した証明書テンプレートの削除]**、**[OK]** の順にクリックします。
+6.  Remove the SmartCardLogon template by checking the box next to it and then clicking **Delete selected certificate templates** and then **OK**.
 
-7.  一番下までスクロールして、**[設定の変更]** をクリックします。
+7.  Scroll down to the bottom and click **Change settings**.
 
-8.  **[仮想スマート カードの作成/破棄]** と **[管理者キーの分散]** の横のチェック ボックスをオンにします。
+8.  Check the boxes next to **Create/Destroy virtual smart card** and **Diversify Admin Key**.
 
-9. **[ユーザー暗証番号ポリシー]** の下で、**[ユーザー指定]** を選択します。
+9. Under **User PIN Policy** select **User Provided**.
 
-10. 左側のウィンドウで、**[書き換えポリシー] &gt; [全般設定の変更]** をクリックします。**[書き換えたカードの再利用]** を選択し、**[OK]** をクリックします。
+10. In the left pane, click **Renew Policy &gt; Change general settings**. Select **Reuse card on renew** and click **OK**.
 
-11. それぞれすべてのポリシーに対するデータ収集項目を無効にする必要があります。これを行うには、左側のウィンドウでポリシーをクリックしてから、**[サンプル データ項目]** の横のチェック ボックスをオンにして、**[データ収集項目の削除]** をクリックします。**[OK]** をクリックします。
+11. You have to disable data collection items for each and every policy by clicking on the policy in the left pane, and then checking the box next to **Sample data item** and then click **Delete data collection items**. Then click **OK**.
 
-## CM アプリの展開を準備する
+## Prepare the CM app for deployment
 
-1.  コマンド プロンプトで次のコマンドを実行して、アプリをアンパックして、appx という名前の新しいサブフォルダーにコンテンツを展開し、元のファイルを変更しないように、コピーを作成します。
+1.  In the command prompt, run the following command to unpack the app and extract the content into a new subfolder named appx and create a copy so that you don’t modify the original file.
 
     ```
     makeappx unpack /l /p <app package name>.appx /d ./appx
@@ -82,53 +82,53 @@ CM アプリに証明書テンプレートを作成します。通常と同じ�
     cd appx
     ```
 
-2.  appx フォルダー内で、CustomDataExample.xml ファイルの名前を Custom.data に変更します。
+2.  In the appx folder, change the name of the file called CustomDataExample.xml to Custom.data
 
-3.  Custom.data ファイルを開き、必要に応じてパラメーターを変更します。
+3.  Open the Custom,data file and modify the parameters as necessary.
 
     |||
     |-|-|
-    |MIMCM URL|CM の構成に使用したポータルの FQDN です。 例: https://mimcmServerAddress/certificatemanagement|
-    |ADFS URL|AD FS を使用する場合は、自身の AD FS URL を挿入します。 例: https://adfsServerSame/adfs|
-    |PrivacyUrl|証明書の登録のために収集されたユーザーの詳細の用途を説明する Web ページへの URL を含めることができます。|
-    |SupportMail|サポートの問題のために電子メール アドレスを含めることができます。|
-    |LobComplianceEnable|これは true または false に設定できます。 既定では true に設定されています。|
-    |MinimumPinLength|既定では 6 に設定されています。|
-    |NonAdmin|これは true または false に設定できます。 既定では false に設定されています。 これは、コンピューター上の管理者ではないユーザーが証明書の登録と更新をできるようにする場合にのみ変更します。|
+    |MIMCM URL|The FQDN of the portal you used to configure CM. For example, https://mimcmServerAddress/certificatemanagement|
+    |ADFS URL|If you will be using AD FS, insert your AD FS URL. For example, https://adfsServerSame/adfs|
+    |PrivacyUrl|You can include an URL to a web page explaining what you do with the user details collected for certificate enrollment.|
+    |SupportMail|You can include an email address for support issues.|
+    |LobComplianceEnable|You can set this to true or false. By default it's set to true.|
+    |MinimumPinLength|By default it's set to 6.|
+    |NonAdmin|You can set this to true or false. By default it's set to false. Only modify this if you want users who are not admins on their computers to be able enroll and renew certificates.|
 
-4.  ファイルを保存してエディターを終了します。
+4.  Save the file and exit the editor.
 
-5.  パッケージに署名すると、署名ファイルが 1 つ作成されるため、AppxSignature.p7x という名前の元の署名ファイルを削除する必要があります。
+5.  Signing the package creates a signing file, so you have to delete the original signing file named AppxSignature.p7x.
 
-6.  AppxManifest.xml ファイルは、署名証明書のサブジェクト名を指定します。 このファイルを開いて編集します。
+6.  The AppxManifest.xml file specifies the subject name of the signing certificate. Open this file to edit it.
 
-7.  このセクションを開始する前に、署名証明書を取得する必要があります。 以下の、「MIM 2016 Certificate Manager で管理者以外のスマートカードの更新を有効にする」の手順 1 を参照してください。
+7.  You need to obtain a signing certificate before starting this section. See below, Enabling smartcard renewal for non-admins in MIM 2016 Certificate Manager, step 1.
 
-8.  &lt;Identity&gt; 要素の Publisher 属性値を、自身の署名証明書に一覧表示されているサブジェクトと同じ (“CN=SUBJECT” など) になるように変更します。
+8.  In the &lt;Identity&gt; element, modify the value of the Publisher attribute to be identical to the subject listed in your signing certificate, for example “CN=SUBJECT”.
 
-9. ファイルを保存してエディターを終了します。
+9. Save the file and exit the editor.
 
-10. コマンド プロンプトで次のコマンドを実行し、.appx ファイルを再パックして署名します。
+10. In the command prompt, run the following command to repack and sign the .appx file.
 
     ```
     cd .. 
     makeappx pack /l /d .\appx /p <app package name>.appx
     ```
-    ここで、アプリのパッケージ名は、コピーを作成したときに使用したのと同じ名前です。
+    where app package name is the same name you used when you created the copy.
 
     ```
     signtool sign /f <path\>mysign.pfx /p <pfx password> /fd "sha256" <app package name>.ap
     px
     ```
-    これにより新しい .appx ファイルが提供されます。 pfx ファイルは、署名証明書の場所と、.pfx ファイルのパスワードを提供します。
+    This provides the new .appx file. The pfx file provides a location for the signing certificate and a password for the .pfx file.
 
-11. AD FS 認証を使用するには:
+11. To work with AD FS Authentication:
 
-    -   仮想スマート カード アプリケーションを開きます。 これにより、次の手順に必要な値が見つけやすくなります。
+    -   Open the Virtual Smart Card application. This makes it easier for you to find the values needed for the next step.
 
-    -   アプリケーションをクライアントとして AD FS サーバーに追加して、サーバー上で CM を構成するには、AD FS サーバーで Windows PowerShell を開き、コマンド `ConfigureMimCMClientAndRelyingParty.ps1 –redirectUri <redirectUriString> -serverFQDN <MimCmServerFQDN>` を実行します。
+    -   To add the application as a client onto the AD FS server and configure CM on the server, on the AD FS server, open Windows PowerShell and run the command `ConfigureMimCMClientAndRelyingParty.ps1 –redirectUri <redirectUriString> -serverFQDN <MimCmServerFQDN>`
 
-        ConfigureMimCMClientAndRelyingParty.ps1 スクリプトを以下に示します。
+        The following is the ConfigureMimCMClientAndRelyingParty.ps1 script:
 
         ```
         # HELP
@@ -221,15 +221,15 @@ CM アプリに証明書テンプレートを作成します。通常と同じ�
         Write-Host "RP Trust for MIM CM Service has been created"
         ```
 
-    -   redirectUri と serverFQDN の値を更新します。
+    -   Update the values of redirectUri and serverFQDN.
 
-    -   仮想スマート カード アプリケーションで redirectUri を検索するには、アプリケーションの設定パネルを開き、**[設定]** をクリックすると、リダイレクト URI が、AD FS サーバーのアドレス バーの下に一覧表示されます。 URI は、ADFS サーバーのアドレスが構成されている場合にのみ表示されます。
+    -   To find the redirectUri, in the Virtual Smart Card application, open the application settings panel, click **Settings**, and the redirect URI should be listed under the AD FS server address bar. The URI will only appear if an ADFS server address is configured.
 
-    -   ServerFQDN は MIMCM サーバーのフル コンピューター名のみです。
+    -   The serverFQDN, is the MIMCM server full computer name only.
 
-    -   **ConfigureMIimCMClientAndRelyingParty.ps1**のスクリプトのヘルプについては、`get-help  -detailed ConfigureMimCMClientAndRelyingParty.ps1` を実行します。
+    -   For help with the **ConfigureMIimCMClientAndRelyingParty.ps1** script, run `get-help  -detailed ConfigureMimCMClientAndRelyingParty.ps1`
 
-## アプリを展開する
-CM アプリをセットアップする際には、ダウンロード センターでファイル MIMDMModernApp_&lt;バージョン&gt;_AnyCPU_Test.zip をダウンロードして、すべてのコンテンツを展開します。 .appx ファイルはインストーラーです。 Windows ストア アプリを展開する通常の方法で展開できます。[System Center Configuration Manager](https://technet.microsoft.com/en-us/library/dn613840.aspx)を使用したり、[Intune](https://technet.microsoft.com/en-us/library/dn613839.aspx) を使用してアプリをサイドロードして、ユーザーがポータル サイトを使用してアクセスしなければならないようにしたり、ユーザーが自身のマシンに直接プッシュされるようにすることができます。
+## Deploy the app
+When you set up the CM app, in the Download Center, download the file MIMDMModernApp_&lt;version&gt;_AnyCPU_Test.zip and extract all its contents. The .appx file is the installer. You can deploy it in any way you ordinarily deploy Windows store apps, using [System Center Configuration Manager](https://technet.microsoft.com/en-us/library/dn613840.aspx), or [Intune](https://technet.microsoft.com/en-us/library/dn613839.aspx) to sideload the app so that users will have to access it through the Company Portal or will get it pushed directly to their machines.
 
 
