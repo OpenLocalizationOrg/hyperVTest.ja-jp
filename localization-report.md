@@ -91,7 +91,7 @@
  [media\try.svg](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/media/try.svg) | Ignored | [Details](#8e59e6381b80c16355375f2483c0c2a749f230d59)
  [media\Untitled-1.svg](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/media/Untitled-1.svg) | Ignored | [Details](#0273ce4d6d0ca8f59dfe431ea406c78ded708b7010)
  [packages.config](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/packages.config) | Ignored | [Details](#e56fc0140763a0ecc7b1cbba0f0c4fd37c4e4dce11)
- [Tools\container_glyphs\Container Glyfs Release 3.pptx](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/Container Glyfs Release 3.pptx) | Ignored | [Details](#22ed0b2b479f91eecc1775eba7f4ac062cdfe3a613)
+ [Tools\container_glyphs\Container Glyfs Release 3.pptx](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/Container%20Glyfs%20Release%203.pptx) | Ignored | [Details](#22ed0b2b479f91eecc1775eba7f4ac062cdfe3a613)
  [Tools\container_glyphs\GreenGlyphs\App-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/App-Green.png) | Ignored | [Details](#7be375f835f591cfe4de1d36a948c8a4bb980fb314)
  [Tools\container_glyphs\GreenGlyphs\App-in-Container-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/App-in-Container-Green.png) | Ignored | [Details](#f354cf8b5770e4d533080a6d659f27300bb358ca15)
  [Tools\container_glyphs\GreenGlyphs\App-in-Container-Green_328.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/App-in-Container-Green_328.png) | Ignored | [Details](#6b3e120d7be24ddf383490ad83625e48dcd718cd16)
@@ -113,8 +113,8 @@
  [Tools\container_glyphs\GreenGlyphs\Sample-App-2-in-Container-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/Sample-App-2-in-Container-Green.png) | Ignored | [Details](#296bb219f9a8ce5465280a1626fda002f9cf64e232)
  [Tools\container_glyphs\GreenGlyphs\Server-with-Container-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/Server-with-Container-Green.png) | Ignored | [Details](#6a8385f23eba178c24aff2beb56381799d8b5c4933)
  [Tools\container_glyphs\GreenGlyphs\Users-Developers-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/Users-Developers-Green.png) | Ignored | [Details](#6e52c3ae8b901e255eb03b42401ae3b2250e6d8c34)
- [Tools\container_glyphs\GreenGlyphs\VM Type 3 with Container.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM Type 3 with Container.png) | Ignored | [Details](#53ba6b9aefbade19d2ccbd43d210422be81ef63635)
- [Tools\container_glyphs\GreenGlyphs\VM Type 3.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM Type 3.png) | Ignored | [Details](#4077e5f0c8ddf0e6cebcf92e3ac5b6cc8da4b74436)
+ [Tools\container_glyphs\GreenGlyphs\VM Type 3 with Container.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM%20Type%203%20with%20Container.png) | Ignored | [Details](#53ba6b9aefbade19d2ccbd43d210422be81ef63635)
+ [Tools\container_glyphs\GreenGlyphs\VM Type 3.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM%20Type%203.png) | Ignored | [Details](#4077e5f0c8ddf0e6cebcf92e3ac5b6cc8da4b74436)
  [Tools\container_glyphs\GreenGlyphs\VM-Type-1-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM-Type-1-Green.png) | Ignored | [Details](#8f89be6f3320437ae24a8fe3623309fde72dfcf937)
  [Tools\container_glyphs\GreenGlyphs\VM-Type-2-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM-Type-2-Green.png) | Ignored | [Details](#ebf8dfa07b35caf7eafc232743ab7e7f197c3ae738)
  [Tools\container_glyphs\GreenGlyphs\VM-with-App-Green.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM-with-App-Green.png) | Ignored | [Details](#61e927b5b333a7062cbb88aa6b88b74957734a8639)
@@ -140,8 +140,8 @@
  [Tools\container_glyphs\OrangeGlyphs\Sample-App-2-in-Container-Orange.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/Sample-App-2-in-Container-Orange.png) | Ignored | [Details](#23f0c162e55f0d86bb1fb63d6da7336fd4c8998859)
  [Tools\container_glyphs\OrangeGlyphs\Server-with-Container-Orange.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/Server-with-Container-Orange.png) | Ignored | [Details](#bc64819d35f0928c59fd0439670191e3be862cdb60)
  [Tools\container_glyphs\OrangeGlyphs\Users-Developers-Orange.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/Users-Developers-Orange.png) | Ignored | [Details](#8bbd6a1d3bff0c0ca590c754f643bd4d15043edf61)
- [Tools\container_glyphs\OrangeGlyphs\VM Type 3 with Container.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM Type 3 with Container.png) | Ignored | [Details](#ee0f8bef950c6e6a3b2b2b6071b9b0af5fdd40b962)
- [Tools\container_glyphs\OrangeGlyphs\VM Type 3.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM Type 3.png) | Ignored | [Details](#6362eff1e8df8edf156c1b0f20ac581407c3754663)
+ [Tools\container_glyphs\OrangeGlyphs\VM Type 3 with Container.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM%20Type%203%20with%20Container.png) | Ignored | [Details](#ee0f8bef950c6e6a3b2b2b6071b9b0af5fdd40b962)
+ [Tools\container_glyphs\OrangeGlyphs\VM Type 3.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM%20Type%203.png) | Ignored | [Details](#6362eff1e8df8edf156c1b0f20ac581407c3754663)
  [Tools\container_glyphs\OrangeGlyphs\VM-Type-1-Orange.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM-Type-1-Orange.png) | Ignored | [Details](#b35c8fe22b2b1a63bc3a80e07ec26dc6a58e7dfc64)
  [Tools\container_glyphs\OrangeGlyphs\VM-Type-2-Orange.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM-Type-2-Orange.png) | Ignored | [Details](#e77d84db78c4becdba5a1c7fdf3190ee046fe17565)
  [Tools\container_glyphs\OrangeGlyphs\VM-with-App-Orange.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM-with-App-Orange.png) | Ignored | [Details](#c447458ecb7dd7bad0dce07e009a0e7f6bf50a0e66)
@@ -455,7 +455,7 @@
 * Current Handback Datetime: 2015-10-20 16:12:14
 * [Back to Top](#report-top)
 
-##### <a name='22ed0b2b479f91eecc1775eba7f4ac062cdfe3a613'></a> Source: [Tools\container_glyphs\Container Glyfs Release 3.pptx](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/Container Glyfs Release 3.pptx)
+##### <a name='22ed0b2b479f91eecc1775eba7f4ac062cdfe3a613'></a> Source: [Tools\container_glyphs\Container Glyfs Release 3.pptx](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/Container%20Glyfs%20Release%203.pptx)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -719,7 +719,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='53ba6b9aefbade19d2ccbd43d210422be81ef63635'></a> Source: [Tools\container_glyphs\GreenGlyphs\VM Type 3 with Container.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM Type 3 with Container.png)
+##### <a name='53ba6b9aefbade19d2ccbd43d210422be81ef63635'></a> Source: [Tools\container_glyphs\GreenGlyphs\VM Type 3 with Container.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM%20Type%203%20with%20Container.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -731,7 +731,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='4077e5f0c8ddf0e6cebcf92e3ac5b6cc8da4b74436'></a> Source: [Tools\container_glyphs\GreenGlyphs\VM Type 3.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM Type 3.png)
+##### <a name='4077e5f0c8ddf0e6cebcf92e3ac5b6cc8da4b74436'></a> Source: [Tools\container_glyphs\GreenGlyphs\VM Type 3.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/GreenGlyphs/VM%20Type%203.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -1043,7 +1043,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='ee0f8bef950c6e6a3b2b2b6071b9b0af5fdd40b962'></a> Source: [Tools\container_glyphs\OrangeGlyphs\VM Type 3 with Container.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM Type 3 with Container.png)
+##### <a name='ee0f8bef950c6e6a3b2b2b6071b9b0af5fdd40b962'></a> Source: [Tools\container_glyphs\OrangeGlyphs\VM Type 3 with Container.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM%20Type%203%20with%20Container.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -1055,7 +1055,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6362eff1e8df8edf156c1b0f20ac581407c3754663'></a> Source: [Tools\container_glyphs\OrangeGlyphs\VM Type 3.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM Type 3.png)
+##### <a name='6362eff1e8df8edf156c1b0f20ac581407c3754663'></a> Source: [Tools\container_glyphs\OrangeGlyphs\VM Type 3.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/6d103fe91fb1aed8e4d1b12a4ba1b499c9da9f9c/Tools/container_glyphs/OrangeGlyphs/VM%20Type%203.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
