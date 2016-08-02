@@ -5,11 +5,11 @@
  -------- | ----- 
  Total Files | 258
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 1
+[ Handoff Success Files ](#handoff-success-list)| 10
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 9
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 33
 [ Ignored Files ](#ignored-list)| 215
 
@@ -18,7 +18,16 @@
 ## <a name='handoff-success-list'></a> Handoff Success File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
+ [README.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/README.md) | HandedOffSuccess | [Details](#6e6654d6927576afc187da66981ad014e0c8c78e12)
+ [virtualization\community\TOC.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/community/TOC.md) | HandedOffSuccess | [Details](#d95757903564f8beea62ad4d2977764d431eeeb896)
+ [virtualization\hyperv_on_windows\quick_start\walkthrough_checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/fa7245bd5b750ffbfc379a25c5ffb37ec1e2a3d4/virtualization/hyperv_on_windows/quick_start/walkthrough_checkpoints.md) | HandedOffSuccess | [Details](#fb605680092e0493c692228abef134d68482c266169)
+ [virtualization\hyperv_on_windows\quick_start\walkthrough_compatibility.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/hyperv_on_windows/quick_start/walkthrough_compatibility.md) | HandedOffSuccess | [Details](#0d42636f079f356bf0cb9f48d6b3064707801930170)
+ [virtualization\hyperv_on_windows\quick_start\walkthrough_install.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/hyperv_on_windows/quick_start/walkthrough_install.md) | HandedOffSuccess | [Details](#1b5101077f3e767271d04f29ca747202ae4586ff173)
  [virtualization\hyperv_on_windows\test.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/86dfa441d7a9fcc35eab7d110136707a0cffb482/virtualization/hyperv_on_windows/test.md) | HandedOffSuccess | [Details](#a04371dfc184446dade04e9e8795028ede684c8f177)
+ [virtualization\windowscontainers\about\about_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/86dfa441d7a9fcc35eab7d110136707a0cffb482/virtualization/windowscontainers/about/about_overview.md) | HandedOffSuccess | [Details](#1cd230752f52bb9786821493df48c8a5a2a2f903194)
+ [virtualization\windowscontainers\containers_welcome.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/containers_welcome.md) | HandedOffSuccess | [Details](#8bad34c32f6802052d5d63f1bb86a7cff755c55a208)
+ [virtualization\windowscontainers\EULA.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/EULA.md) | HandedOffSuccess | [Details](#7640a837f02d2e4f4bcc6bc9ca66b5a5c37eef32209)
+ [virtualization\windowscontainers\quick_start\azure_setup.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/quick_start/azure_setup.md) | HandedOffSuccess | [Details](#d82cfc8ade5b456e690bd35933eb2b939a4ed847214)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
@@ -27,17 +36,6 @@
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
 ## <a name='outofsync-handback-success-list'></a> Out Of Sync Handback Success File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [README.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/README.md) | OutofSyncHandedBackSuccess | [Details](#6e6654d6927576afc187da66981ad014e0c8c78e12)
- [virtualization\community\TOC.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/community/TOC.md) | OutofSyncHandedBackSuccess | [Details](#d95757903564f8beea62ad4d2977764d431eeeb896)
- [virtualization\hyperv_on_windows\quick_start\walkthrough_checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/fa7245bd5b750ffbfc379a25c5ffb37ec1e2a3d4/virtualization/hyperv_on_windows/quick_start/walkthrough_checkpoints.md) | OutofSyncHandedBackSuccess | [Details](#fb605680092e0493c692228abef134d68482c266169)
- [virtualization\hyperv_on_windows\quick_start\walkthrough_compatibility.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/hyperv_on_windows/quick_start/walkthrough_compatibility.md) | OutofSyncHandedBackSuccess | [Details](#0d42636f079f356bf0cb9f48d6b3064707801930170)
- [virtualization\hyperv_on_windows\quick_start\walkthrough_install.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/hyperv_on_windows/quick_start/walkthrough_install.md) | OutofSyncHandedBackSuccess | [Details](#1b5101077f3e767271d04f29ca747202ae4586ff173)
- [virtualization\windowscontainers\about\about_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/86dfa441d7a9fcc35eab7d110136707a0cffb482/virtualization/windowscontainers/about/about_overview.md) | OutofSyncHandedBackSuccess | [Details](#1cd230752f52bb9786821493df48c8a5a2a2f903194)
- [virtualization\windowscontainers\containers_welcome.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/containers_welcome.md) | OutofSyncHandedBackSuccess | [Details](#8bad34c32f6802052d5d63f1bb86a7cff755c55a208)
- [virtualization\windowscontainers\EULA.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/EULA.md) | OutofSyncHandedBackSuccess | [Details](#7640a837f02d2e4f4bcc6bc9ca66b5a5c37eef32209)
- [virtualization\windowscontainers\quick_start\azure_setup.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/quick_start/azure_setup.md) | OutofSyncHandedBackSuccess | [Details](#d82cfc8ade5b456e690bd35933eb2b939a4ed847214)
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
@@ -441,7 +439,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='6e6654d6927576afc187da66981ad014e0c8c78e12'></a> Source: [README.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/README.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/14e9a18cb39f03855d6aa2cca1f4cd29499a7afa/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf)
 * Handoff Datetime: 2016-01-14 12:19:19
@@ -1452,7 +1450,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d95757903564f8beea62ad4d2977764d431eeeb896'></a> Source: [virtualization\community\TOC.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/community/TOC.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [TOC.4885638d0b97b11bc739bfa927a9ccebda99114f.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/14e9a18cb39f03855d6aa2cca1f4cd29499a7afa/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/TOC.4885638d0b97b11bc739bfa927a9ccebda99114f.ja-jp.xlf)
 * Handoff Datetime: 2016-01-14 12:19:19
@@ -2331,7 +2329,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='fb605680092e0493c692228abef134d68482c266169'></a> Source: [virtualization\hyperv_on_windows\quick_start\walkthrough_checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/fa7245bd5b750ffbfc379a25c5ffb37ec1e2a3d4/virtualization/hyperv_on_windows/quick_start/walkthrough_checkpoints.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [walkthrough_checkpoints.06ccef918ac38bd6b778e8f9277879f20d6e1fd9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/b14c60ef692d77545ea98fb571e09e691d20cd09/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/walkthrough_checkpoints.06ccef918ac38bd6b778e8f9277879f20d6e1fd9.ja-jp.xlf)
 * Handoff Datetime: 2016-01-14 13:35:41
@@ -2346,7 +2344,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='0d42636f079f356bf0cb9f48d6b3064707801930170'></a> Source: [virtualization\hyperv_on_windows\quick_start\walkthrough_compatibility.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/hyperv_on_windows/quick_start/walkthrough_compatibility.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [walkthrough_compatibility.b81630a3813897e1115f050cb3fb67a3db007cf8.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/14e9a18cb39f03855d6aa2cca1f4cd29499a7afa/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/walkthrough_compatibility.b81630a3813897e1115f050cb3fb67a3db007cf8.ja-jp.xlf)
 * Handoff Datetime: 2016-01-14 12:19:19
@@ -2385,7 +2383,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1b5101077f3e767271d04f29ca747202ae4586ff173'></a> Source: [virtualization\hyperv_on_windows\quick_start\walkthrough_install.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/hyperv_on_windows/quick_start/walkthrough_install.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [walkthrough_install.775f3dd3ffd893bcec04436e9648ed46ba3e501e.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/14e9a18cb39f03855d6aa2cca1f4cd29499a7afa/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/walkthrough_install.775f3dd3ffd893bcec04436e9648ed46ba3e501e.ja-jp.xlf)
 * Handoff Datetime: 2016-01-14 12:19:19
@@ -2640,7 +2638,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1cd230752f52bb9786821493df48c8a5a2a2f903194'></a> Source: [virtualization\windowscontainers\about\about_overview.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/86dfa441d7a9fcc35eab7d110136707a0cffb482/virtualization/windowscontainers/about/about_overview.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [about_overview.128dd77ccb6c6a944b03f43ade40980cc30f0f48.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/f73f0de83985580e8fd91901483ac8d2180dcc9f/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/about_overview.128dd77ccb6c6a944b03f43ade40980cc30f0f48.ja-jp.xlf)
 * Handoff Datetime: 2016-01-27 05:45:37
@@ -2811,7 +2809,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='8bad34c32f6802052d5d63f1bb86a7cff755c55a208'></a> Source: [virtualization\windowscontainers\containers_welcome.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/containers_welcome.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [containers_welcome.2c85b1345b8dfcc523a3848ed7661e25d5ffbb17.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/14e9a18cb39f03855d6aa2cca1f4cd29499a7afa/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/containers_welcome.2c85b1345b8dfcc523a3848ed7661e25d5ffbb17.ja-jp.xlf)
 * Handoff Datetime: 2016-01-14 12:19:19
@@ -2826,7 +2824,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='7640a837f02d2e4f4bcc6bc9ca66b5a5c37eef32209'></a> Source: [virtualization\windowscontainers\EULA.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/EULA.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [EULA.0ba9560e121100b89b5825e4c97105b9c4695644.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/14e9a18cb39f03855d6aa2cca1f4cd29499a7afa/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/EULA.0ba9560e121100b89b5825e4c97105b9c4695644.ja-jp.xlf)
 * Handoff Datetime: 2016-01-14 12:19:19
@@ -2889,7 +2887,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d82cfc8ade5b456e690bd35933eb2b939a4ed847214'></a> Source: [virtualization\windowscontainers\quick_start\azure_setup.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/1fb350e3e83de4b8c216f9d75d564bc06c5cab7a/virtualization/windowscontainers/quick_start/azure_setup.md)
-* Status: OutofSyncHandedBackSuccess
+* Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [azure_setup.efbdfa56db2e296be3a4b34d7841c826cfcc65b5.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/14e9a18cb39f03855d6aa2cca1f4cd29499a7afa/ol-handoff/OpenLocalizationOrg/hyperVTest.ja-jp/live/azure_setup.efbdfa56db2e296be3a4b34d7841c826cfcc65b5.ja-jp.xlf)
 * Handoff Datetime: 2016-01-14 12:19:19
